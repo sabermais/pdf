@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Legislação Municipal — Jaraguá do Sul 2026</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#6A1B9A">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Lei Orgânica">
 <style>
   :root{
     --laranja:#E8590C;  --laranja-bg:#FFF0E6;  --laranja-bd:#FFB27A;
@@ -1097,6 +1104,9 @@
     document.getElementById('barraTxt').textContent=n+' de '+cks.length+' concluídos'+(n===cks.length?' 🎉':'');}
   cks.forEach(function(c){c.addEventListener('change',upd);});
 })();
+</script>
+<script>
+if ('serviceWorker' in navigator) { window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); }); }
 </script>
 </body>
 </html>
