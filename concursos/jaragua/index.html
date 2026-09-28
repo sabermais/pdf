@@ -414,6 +414,44 @@
     .tabela-wrap.t4 th:nth-child(3),.tabela-wrap.t4 td:nth-child(3){width:25%;}
     .tabela-wrap.t4 th:nth-child(4),.tabela-wrap.t4 td:nth-child(4){width:17%;}
   }
+
+  /* ===== PARTE IV — ESTATUTO (rosa) ===== */
+  .pt5{background:linear-gradient(135deg,var(--rosa),var(--laranja));}
+  .p5 .badge-num{background:var(--rosa);} .p5 h2{color:var(--rosa);} .p5 h3{border-color:var(--rosa-bd); color:var(--rosa);}
+  .ix-pt5{background:var(--rosa-bg); border-color:var(--rosa);} .ix-pt5 summary{color:var(--rosa);} .ix-pt5 .ix-n{background:var(--rosa);}
+  ol.passos.rosado li{background:var(--rosa-bg); font-weight:500;} ol.passos.rosado li::before{background:var(--rosa);}
+  .formas span{background:var(--rosa-bg); border-color:var(--rosa-bd);} .formas b{color:var(--rosa); font-size:1.05rem;}
+  .m-card.lc{background:linear-gradient(135deg,var(--rosa-bg),#FFF3E0); border-color:var(--rosa-bd);} .m-card.lc .m-num{color:var(--rosa);}
+  .p5 .timeline .ano{font-size:1rem;}
+
+  /* ===== PARTE V (teal) e PARTE VI (vermelho) ===== */
+  :root{--teal:#00796B; --teal-bg:#E0F2F1; --teal-bd:#80CBC4;}
+  .pt6{background:linear-gradient(135deg,#00796B,var(--azul));}
+  .pt7{background:linear-gradient(135deg,var(--vermelho),#6D1B1B);}
+  .p6 .badge-num{background:var(--teal);} .p6 h2{color:var(--teal);} .p6 h3{border-color:var(--teal-bd); color:var(--teal);}
+  .p7 .badge-num{background:var(--vermelho);} .p7 h2{color:var(--vermelho);} .p7 h3{border-color:var(--vermelho-bd); color:var(--vermelho);}
+  .ix-pt6{background:var(--teal-bg); border-color:var(--teal);} .ix-pt6 summary{color:var(--teal);} .ix-pt6 .ix-n{background:var(--teal);}
+  .ix-pt7{background:var(--vermelho-bg); border-color:var(--vermelho);} .ix-pt7 summary{color:var(--vermelho);} .ix-pt7 .ix-n{background:var(--vermelho);}
+  ol.passos.verdeado li{background:var(--teal-bg); font-weight:500;} ol.passos.verdeado li::before{background:var(--teal);}
+  .tri{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:16px 0;}
+  .tri-card{border-radius:16px; padding:14px; border-top:6px solid; font-size:.93rem;}
+  .tri-card ul{padding-left:18px; margin:8px 0 0;} .tri-card li{margin:4px 0;} .tri-card p{margin:6px 0;}
+  .tri-nome{font-weight:900; font-size:1.08rem; margin:0 !important;}
+  .tri-quem{font-size:.85rem; letter-spacing:.02em;}
+  .tc1{background:var(--laranja-bg); border-color:var(--laranja);} .tc1 .tri-nome{color:var(--laranja);}
+  .tc2{background:var(--azul-bg); border-color:var(--azul);} .tc2 .tri-nome{color:var(--azul);}
+  .tc3{background:var(--verde-bg); border-color:var(--verde);} .tc3 .tri-nome{color:var(--verde);}
+  .trio .t4x{background:#555;}
+  .chips.verdes span{border-color:var(--verde-bd); color:var(--verde);}
+  .chips.vermelhos span{border-color:var(--vermelho-bd); color:var(--vermelho);}
+  .am-grid.tres{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .am-c .am-art,.am-c .am-q{color:var(--laranja);}
+  .vac span{background:#fff; font-weight:800;}
+  @media (max-width:700px){ .tri,.am-grid.tres{grid-template-columns:minmax(0,1fr);} }
+  .tabela-wrap.t4.lic th:nth-child(1),.tabela-wrap.t4.lic td:nth-child(1){width:23%;}
+  .tabela-wrap.t4.lic th:nth-child(2),.tabela-wrap.t4.lic td:nth-child(2){width:27%;}
+  .tabela-wrap.t4.lic th:nth-child(3),.tabela-wrap.t4.lic td:nth-child(3){width:22%;}
+  .tabela-wrap.t4.lic th:nth-child(4),.tabela-wrap.t4.lic td:nth-child(4){width:28%;}
 </style>
 </head>
 <body>
@@ -425,7 +463,7 @@
     <h1>📜 APOSTILA DEFINITIVA — LEGISLAÇÃO MUNICIPAL</h1>
     <p class="sub">PREFEITURA DE JARAGUÁ DO SUL • 2026</p>
     <p class="sub"><em>Instituto Tupy — Conhecimentos Gerais</em></p>
-    <span class="periodo">🏛️ Lei Orgânica + Atualizações</span>
+    <span class="periodo">🏛️ Lei Orgânica + Estatuto do Servidor + Atualizações</span>
   </header>
 
   <!-- ÍNDICE INTERATIVO -->
@@ -434,9 +472,11 @@
     <p class="ix-dica">Toque em um tópico para ir direto a ele. O botão <b>☰ Índice</b> no canto da tela traz você de volta para cá.</p>
     <div class="ix-atalhos">
       <a href="#como-estudar">🎯 Como estudar</a>
-      <a href="#s17">🔢 Mapa de números</a>
-      <a href="#s19">🎮 Simulado</a>
-      <a href="#s20">✅ Checklist</a>
+      <a href="#parte4">👤 Estatuto do Servidor</a>
+      <a href="#parte6">⚖️ PAD e penalidades</a>
+      <a href="#s35">🔢 Mapa de números</a>
+      <a href="#s37">🎮 Simulado</a>
+      <a href="#s38">✅ Checklist</a>
     </div>
     <div class="ix-grid">
       <details class="ix-bloco ix-pt1" open>
@@ -451,16 +491,28 @@
         <summary><a href="#parte3" class="ix-parte">PARTE III — Estrutura interna da Câmara</a></summary>
         <ul><li><a href="#s14"><span class="ix-n">14</span><span class="ix-t">ARTS. 21 A 29 — QUEM FAZ O QUÊ?</span></a></li><li><a href="#s15"><span class="ix-n">15</span><span class="ix-t">ART. 23 — VOTO DO PRESIDENTE</span></a></li><li><a href="#s16"><span class="ix-n">16</span><span class="ix-t">COMISSÃO PERMANENTE × CPI</span></a></li></ul>
       </details>
+      <details class="ix-bloco ix-pt5" open>
+        <summary><a href="#parte4" class="ix-parte">PARTE IV — Estatuto: Bloco 1 (provimento)</a></summary>
+        <ul><li><a href="#s17"><span class="ix-n">17</span><span class="ix-t">SERVIDOR E CARGO — ARTS. 1º A 4º</span></a></li><li><a href="#s18"><span class="ix-n">18</span><span class="ix-t">REQUISITOS E FORMAS DE PROVIMENTO — ARTS. 5º A 8º</span></a></li><li><a href="#s19"><span class="ix-n">19</span><span class="ix-t">NOMEAÇÃO E CONCURSO — ARTS. 9º A 15-B</span></a></li><li><a href="#s20"><span class="ix-n">20</span><span class="ix-t">POSSE — ARTS. 16 A 18</span></a></li><li><a href="#s21"><span class="ix-n">21</span><span class="ix-t">EXERCÍCIO — ARTS. 19 A 23</span></a></li><li><a href="#s22"><span class="ix-n">22</span><span class="ix-t">ESTÁGIO PROBATÓRIO E ESTABILIDADE — ARTS. 24 E 25</span></a></li></ul>
+      </details>
+      <details class="ix-bloco ix-pt6" open>
+        <summary><a href="#parte5" class="ix-parte">PARTE V — Estatuto: Bloco 2 (art. 26 em diante)</a></summary>
+        <ul><li><a href="#s23"><span class="ix-n">23</span><span class="ix-t">REVERSÃO × REINTEGRAÇÃO × RECONDUÇÃO — ARTS. 26 A 30</span></a></li><li><a href="#s24"><span class="ix-n">24</span><span class="ix-t">DISPONIBILIDADE × APROVEITAMENTO (E SUBSTITUIÇÃO) — ARTS. 31 A 37</span></a></li><li><a href="#s25"><span class="ix-n">25</span><span class="ix-t">VACÂNCIA × EXONERAÇÃO × DEMISSÃO — ARTS. 38 A 40</span></a></li><li><a href="#s26"><span class="ix-n">26</span><span class="ix-t">REMOÇÃO × REDISTRIBUIÇÃO — ARTS. 41 A 50</span></a></li><li><a href="#s27"><span class="ix-n">27</span><span class="ix-t">VENCIMENTO × REMUNERAÇÃO — ARTS. 51 A 60</span></a></li><li><a href="#s28"><span class="ix-n">28</span><span class="ix-t">FÉRIAS — ARTS. 108 A 119</span></a></li><li><a href="#s29"><span class="ix-n">29</span><span class="ix-t">LICENÇAS E AFASTAMENTOS — ARTS. 121 A 150</span></a></li></ul>
+      </details>
+      <details class="ix-bloco ix-pt7" open>
+        <summary><a href="#parte6" class="ix-parte">PARTE VI — Deveres, proibições e PAD</a></summary>
+        <ul><li><a href="#s30"><span class="ix-n">30</span><span class="ix-t">DEVERES × PROIBIÇÕES — ARTS. 173 E 174</span></a></li><li><a href="#s31"><span class="ix-n">31</span><span class="ix-t">ACUMULAÇÃO DE CARGOS — ARTS. 175 E 176</span></a></li><li><a href="#s32"><span class="ix-n">32</span><span class="ix-t">PENALIDADES E PRESCRIÇÃO — ARTS. 177 A 196</span></a></li><li><a href="#s33"><span class="ix-n">33</span><span class="ix-t">ABANDONO × INASSIDUIDADE HABITUAL — ARTS. 197 A 201</span></a></li><li><a href="#s34"><span class="ix-n">34</span><span class="ix-t">SINDICÂNCIA E PAD — ARTS. 202 A 254</span></a></li></ul>
+      </details>
       <details class="ix-bloco ix-pt4" open>
-        <summary><a href="#parte4" class="ix-parte">PARTE IV — Revisão final</a></summary>
-        <ul><li><a href="#s17"><span class="ix-n">17</span><span class="ix-t">MAPA DE NÚMEROS</span></a></li><li><a href="#s18"><span class="ix-n">18</span><span class="ix-t">MAPA DE VERBOS</span></a></li><li><a href="#s19"><span class="ix-n">19</span><span class="ix-t">MINI-SIMULADO INTEGRADO</span></a></li><li><a href="#s20"><span class="ix-n">20</span><span class="ix-t">CHECKLIST — POSSO IR PARA A PRÓXIMA MATÉRIA?</span></a></li></ul>
+        <summary><a href="#parte7" class="ix-parte">PARTE VII — Revisão final</a></summary>
+        <ul><li><a href="#s35"><span class="ix-n">35</span><span class="ix-t">MAPA DE NÚMEROS</span></a></li><li><a href="#s36"><span class="ix-n">36</span><span class="ix-t">MAPA DE VERBOS</span></a></li><li><a href="#s37"><span class="ix-n">37</span><span class="ix-t">MINI-SIMULADO INTEGRADO</span></a></li><li><a href="#s38"><span class="ix-n">38</span><span class="ix-t">CHECKLIST — POSSO IR PARA A PRÓXIMA MATÉRIA?</span></a></li></ul>
       </details>
     </div>
   </nav>
 
   <div class="callout c-conexao estrutura">
     <p class="titulo">🧭 ESTRUTURA:</p>
-    <p class="trilha"><span>Atualizações recentes</span> → <span>Emendas à Lei Orgânica</span> → <span>Competências municipais</span> → <span>Art. 7º × Art. 8º</span> → <span>Estrutura da Câmara</span> → <span>Quóruns e pontos de atenção</span> → <span>Questões</span>.</p>
+    <p class="trilha"><span>Atualizações recentes</span> → <span>Emendas à Lei Orgânica</span> → <span>Competências municipais</span> → <span>Art. 7º × Art. 8º</span> → <span>Estrutura da Câmara</span> → <span>Quóruns e pontos de atenção</span> → <span>Estatuto do Servidor (LC 154)</span> → <span>Regime disciplinar e PAD</span> → <span>Questões</span>.</p>
   </div>
 
   <section class="secao s0">
@@ -491,7 +543,7 @@
 
   <section class="secao p1" id="s1">
     <div class="secao-num"><span class="badge-num">1</span><h2>LEI COMPLEMENTAR 344/2025</h2></div>
-    <p>A <span class="laranja">LC 344/2025</span> atualizou termos e proibições funcionais relacionadas à atuação empresarial do servidor.</p>
+    <p>A <span class="laranja">LC 344/2025</span> atualizou termos e proibições funcionais relacionadas à atuação empresarial do servidor. Os dois artigos alterados são do <b>Estatuto do Servidor — LC 154/2014</b> (Parte IV).</p>
     <h3>1.1 Dois dispositivos, duas mudanças diferentes</h3>
     <div class="dupla">
       <div class="callout c-conexao"><p class="titulo">🔤 ART. 18, III — ALTERAÇÃO TERMINOLÓGICA</p>
@@ -525,6 +577,7 @@
         <tr><td>Personificada ou não</td><td>"Só pessoa jurídica registrada" — restrição indevida.</td></tr>
         <tr><td>Participação passiva</td><td>Confundir cotista/acionista com administrador.</td></tr>
         <tr><td>Art. 18, III × art. 174, XVI</td><td>Tratar a troca de palavras do art. 18, III como se fosse uma nova proibição.</td></tr>
+        <tr><td>Redação antiga do art. 174, XVI</td><td>"sociedade <b>privada</b> [...] ou exercer <b>comércio</b>, e, nessa qualidade, <b>transacionar com o Poder Público</b>" — texto substituído pela LC 344/2025.</td></tr>
       </tbody>
     </table></div>
     <div class="callout c-conexao"><p class="titulo">🔑 PALAVRAS-CHAVE:</p><p class="chips"><span>sociedade empresária</span><span>atividade empresária</span><span>personificada ou não</span><span>gerência/administração</span><span>relações comerciais ou administrativas com o Município</span><span>subvencionada</span><span>cotista/acionista</span></p></div>
@@ -532,7 +585,7 @@
 
   <section class="secao p1" id="s2">
     <div class="secao-num"><span class="badge-num">2</span><h2>LEI COMPLEMENTAR 370/2026 — TRIÊNIO</h2></div>
-    <p>A apostila-base apresenta a <span class="laranja">LC 370/2026</span> como atualização central do adicional por tempo de serviço.</p>
+    <p>A <span class="laranja">LC 370/2026</span> é a atualização central do adicional por tempo de serviço: ela deu nova redação ao <b>art. 107, §3º da LC 154/2014</b> (Estatuto do Servidor).</p>
     <h3>2.1 Regra</h3>
     <div class="tabela-wrap"><table>
       <thead><tr><th>Elemento</th><th>Regra destacada</th></tr></thead>
@@ -541,7 +594,7 @@
         <tr><td>Periodicidade</td><td><span class="azul">a cada 3 anos</span></td></tr>
         <tr><td>Base</td><td><span class="verde">vencimento básico do cargo efetivo</span></td></tr>
         <tr><td>Servidor efetivo em cargo comissionado</td><td>mantém o adicional acumulado</td></tr>
-        <tr><td>Incidência sobre cargo comissionado</td><td><span class="vermelho">vedada</span>, conforme material</td></tr>
+        <tr><td>Incidência sobre cargo comissionado</td><td><span class="vermelho">vedada</span> (art. 107, §3º)</td></tr>
       </tbody>
     </table></div>
     <figure class="fig">
@@ -550,7 +603,14 @@
     </figure>
     <h3>2.2 Exemplo de prova</h3>
     <p>Servidor com 6 anos de efetivo serviço: 2 triênios = 12%. O ponto decisivo é que o cálculo incide sobre o <span class="verde">vencimento básico do cargo efetivo</span>, e não sobre a remuneração do cargo comissionado.</p>
-    <div class="callout c-lom"><p class="titulo">📜 NA LEI — base do adicional</p><p>A Lei Orgânica só garante o direito de forma genérica: art. 90-F, XXI — "adicional por tempo de serviço, <b>na forma da lei</b>". Os números (6% / 3 anos) vêm da LC 370/2026, não da LOM.</p></div>
+    <div class="callout c-lom"><p class="titulo">📜 NA LEI — art. 107 da LC 154/2014</p>
+      <p>Adicional por tempo de serviço, <b>por triênio</b>: <b>6% sobre o vencimento básico</b> para cada <b>3 anos de exercício</b> prestado ao Município, suas Autarquias e Fundações.</p>
+      <ul class="limpa">
+        <li data-ico="👤">§1º: devido aos <b>titulares de cargos efetivos</b> dos Quadros Permanentes.</li>
+        <li data-ico="🔁">§2º: o efetivo investido em <b>outro cargo efetivo</b> pode <b>averbar</b> o tempo prestado no Município, a requerimento.</li>
+        <li data-ico="💼">§3º (LC 370/2026): efetivo nomeado para <b>cargo em comissão</b> faz jus ao triênio, calculado <b>exclusivamente sobre o vencimento do cargo efetivo</b>, vedada a incidência sobre a remuneração do cargo em comissão.</li>
+      </ul>
+      <p>Na Lei Orgânica, o direito aparece só de forma genérica: art. 90-F, XXI — "adicional por tempo de serviço, <b>na forma da lei</b>".</p></div>
     <div class="callout c-sacada"><p class="titulo">🏆 REGRA DE OURO:</p><p><span class="laranja">6% a cada 3 anos</span> + <span class="verde">vencimento básico do cargo efetivo</span>. Não transportar o percentual para gratificação, representação ou subsídio de cargo em comissão.</p></div>
   </section>
 
@@ -995,11 +1055,574 @@
       <p>Comissões permanentes (art. 28): <b>representação proporcional</b> dos partidos "quanto possível"; <b>convocam</b> Secretários/Diretores; <b>solicitam depoimento</b> de qualquer autoridade ou cidadão; realizam audiências públicas com entidades da sociedade civil. Projeto com <b>parecer contrário de todas as comissões</b> é arquivado (art. 45). No <b>recesso</b> funciona uma <b>comissão representativa</b> (art. 29, §4º).</p></div>
   </section>
 
-  <!-- ================= PARTE IV ================= -->
-  <div class="parte pt4" id="parte4"><span class="parte-tag">PARTE IV</span><h2>REVISÃO FINAL</h2></div>
+    <!-- ================= PARTE IV — ESTATUTO ================= -->
+  <div class="parte pt5" id="parte4"><span class="parte-tag">PARTE IV</span><h2>ESTATUTO DO SERVIDOR: BLOCO 1 — PROVIMENTO (ARTS. 1º A 25)</h2></div>
 
-  <section class="secao p4" id="s17">
-    <div class="secao-num"><span class="badge-num">17</span><h2>MAPA DE NÚMEROS</h2></div>
+  <section class="secao p5">
+    <p>A <span class="rosa">LC 154/2014</span> é o regime jurídico dos servidores de Jaraguá do Sul. É nela que ficam os artigos alterados pela <span class="laranja">LC 344/2025</span> (arts. 18, III e 174, XVI — seção 1) e pela <span class="laranja">LC 370/2026</span> (art. 107, §3º — seção 2). Este bloco cobre o <b>provimento</b>: da nomeação até a estabilidade (arts. 1º a 25). O Bloco 2 (Parte V) segue do art. 26 em diante, e a Parte VI trata do regime disciplinar e do PAD.</p>
+    <div class="callout c-alerta"><p class="titulo">📌 QUESTÃO REAL DA TUPY</p><p>Já cobrado pela Tupy, em questão sobre a LC 154/2014 de Jaraguá do Sul: reconhecer as definições legais de <b>nomeação, posse, exercício e reversão</b>. Por isso, este bloco se estuda <b>em sequência</b>, não em conceitos soltos.</p></div>
+    <h3>🕰️ A sequência que não pode ser decorada solta</h3>
+    <div class="timeline">
+      <div class="tl-item tl-laranja"><span class="ano">1º</span>
+        <div class="card"><h4>📄 Nomeação — forma de provimento</h4><p>Publicada no órgão de divulgação do Município. Sozinha, <b>não</b> gera efeitos financeiros.</p></div></div>
+      <div class="tl-item tl-azul"><span class="ano">2º</span>
+        <div class="card"><h4>✍️ Posse — investidura no cargo</h4><p>Até <b>30 dias</b> da publicação da nomeação, prorrogáveis por mais <b>30</b>. Sem posse no prazo → nomeação <b>sem efeito</b>.</p></div></div>
+      <div class="tl-item tl-vermelho"><span class="ano">3º</span>
+        <div class="card"><h4>💼 Exercício — efetivo desempenho</h4><p>Ocorre <b>concomitantemente com a posse</b>. Efeitos financeiros só a partir do <b>início do efetivo exercício</b>.</p></div></div>
+      <div class="tl-item tl-roxo"><span class="ano">4º</span>
+        <div class="card"><h4>🔎 Estágio probatório</h4><p>Começa <b>ao entrar em exercício</b> e dura <b>3 anos</b>, contados da data da entrada em exercício.</p></div></div>
+      <div class="tl-item tl-verde"><span class="ano">5º</span>
+        <div class="card"><h4>🛡️ Estabilidade</h4><p>Após <b>3 anos de efetivo exercício</b> + concurso público + <b>aprovação no estágio</b>.</p></div></div>
+    </div>
+  </section>
+
+  <section class="secao p5" id="s17">
+    <div class="secao-num"><span class="badge-num">17</span><h2>SERVIDOR E CARGO — ARTS. 1º A 4º</h2></div>
+    <div class="callout c-lom"><p class="titulo">📜 NA LEI — quem está no Estatuto (art. 1º)</p>
+      <p>Servidores do <b>Poder Executivo</b> e do <b>Poder Legislativo</b>, e também das <b>autarquias</b> e <b>fundações públicas</b> municipais.</p></div>
+    <div class="dupla">
+      <div class="callout c-conexao"><p class="titulo">👤 SERVIDOR — art. 2º</p>
+        <p class="lei">"Servidor é a pessoa <b>legalmente investida em cargo público</b>."</p></div>
+      <div class="callout c-sacada"><p class="titulo">🪪 CARGO PÚBLICO — art. 3º</p>
+        <p>Conjunto de <b>atribuições + deveres + responsabilidades</b> cometido ao servidor, <b>criado por lei</b>, com:</p>
+        <p class="chips"><span>denominação própria</span><span>número certo</span><span>vencimento pago pelos cofres públicos</span></p></div>
+    </div>
+    <ul class="limpa">
+      <li data-ico="🌎">§1º: cargos acessíveis aos <b>brasileiros</b> que preencham os requisitos e aos <b>estrangeiros</b>, nos casos em que a lei expressamente admitir.</li>
+      <li data-ico="🔀">§2º: cargos providos em caráter <b>efetivo</b> ou <b>em comissão</b>.</li>
+      <li data-ico="🚫">Art. 4º: é <b>proibida a prestação de serviços gratuitos</b>, salvo os casos previstos em lei. Exceção: participação em comissão, conselho ou grupo de trabalho para estudo ou projeto de interesse do Município, desde que essa condição esteja no <b>instrumento convocatório</b>.</li>
+    </ul>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY — trocas possíveis</p>
+      <ul class="limpa">
+        <li data-ico="↔️">servidor (a <b>pessoa</b>) × cargo (o <b>conjunto de atribuições</b>)</li>
+        <li data-ico="↔️">investidura × exercício</li>
+        <li data-ico="↔️">cargo "criado por lei" × criado por ato administrativo</li>
+        <li data-ico="↔️">"vencimento pago pelos cofres públicos" × outra forma de remuneração</li>
+      </ul></div>
+  </section>
+
+  <section class="secao p5" id="s18">
+    <div class="secao-num"><span class="badge-num">18</span><h2>REQUISITOS E FORMAS DE PROVIMENTO — ARTS. 5º A 8º</h2></div>
+    <h3>Requisitos mínimos para a investidura (art. 5º)</h3>
+    <ol class="passos rosado">
+      <li>nacionalidade brasileira;</li>
+      <li>idade mínima de <b>18 anos</b>;</li>
+      <li>quitação com as obrigações <b>militares e eleitorais</b>;</li>
+      <li>aptidão física e mental;</li>
+      <li>nível de escolaridade exigido para o cargo;</li>
+      <li>pleno gozo dos direitos políticos;</li>
+      <li>estar em dia com os direitos e deveres civis;</li>
+      <li>habilitação prévia em <b>concurso público</b>.</li>
+    </ol>
+    <ul class="limpa">
+      <li data-ico="➕">§1º: as atribuições do cargo podem justificar <b>outros requisitos</b> estabelecidos em lei.</li>
+      <li data-ico="♿">§2º: pessoas com deficiência — reserva de <b>até 5%</b> das vagas oferecidas por cargo no concurso, ou das que surgirem no prazo de validade (cargo com atribuições compatíveis com a capacidade laborativa).</li>
+      <li data-ico="🎂">§3º: o <b>menor de 18 anos</b> pode participar do certame, desde que complete a idade <b>até a data de ingresso no cargo</b>.</li>
+    </ul>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY</p><p class="grande">PARTICIPAR DO CERTAME ≠ INGRESSAR NO CARGO</p><p>A idade de 18 anos é exigida no <b>ingresso</b>, não na inscrição.</p></div>
+    <h3>Quem faz o provimento (art. 6º) e quando há investidura (art. 7º)</h3>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Onde</th><th>Provimento por ato de</th></tr></thead>
+      <tbody>
+        <tr><td>Município (Executivo e Legislativo)</td><td><b>Chefe do respectivo Poder</b> ou preposto definido em lei</td></tr>
+        <tr><td>Autarquias e Fundações Públicas</td><td><b>Dirigentes Superiores</b> das respectivas instituições</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout c-spoiler"><p class="titulo">🧠 MEMÓRIA — art. 7º</p><p class="grande">A INVESTIDURA OCORRE COM A POSSE.</p><p>Não com a nomeação, nem com o exercício, nem com a aprovação no concurso.</p></div>
+    <h3>As 6 formas de provimento (art. 8º)</h3>
+    <div class="grade-temas formas">
+      <span><b>N</b> — nomeação</span>
+      <span><b>R</b> — reversão</span>
+      <span><b>R</b> — reintegração</span>
+      <span><b>R</b> — recondução</span>
+      <span><b>D/A</b> — disponibilidade e aproveitamento</span>
+      <span><b>S</b> — substituição</span>
+    </div>
+    <div class="callout c-spoiler"><p class="titulo">🧠 MEMÓRIA</p><p class="grande">N – R – R – R – D/A – S</p><p>Reversão, reintegração, recondução, disponibilidade, aproveitamento e substituição estão detalhados nas seções 23 e 24.</p></div>
+  </section>
+
+  <section class="secao p5" id="s19">
+    <div class="secao-num"><span class="badge-num">19</span><h2>NOMEAÇÃO E CONCURSO — ARTS. 9º A 15-B</h2></div>
+    <div class="versus">
+      <div class="versus-head">📄 A NOMEAÇÃO DÁ-SE (art. 9º)</div>
+      <div class="versus-grid">
+        <div class="versus-side ent"><div class="nome">EM CARÁTER EFETIVO</div><div class="paises">cargo de provimento efetivo</div></div>
+        <div class="versus-vs">🆚</div>
+        <div class="versus-side ali"><div class="nome">EM COMISSÃO</div><div class="paises">cargos de confiança de livre exoneração</div></div>
+      </div>
+      <div class="versus-nota">§1º: ocupante de cargo em comissão pode ter exercício, <b>interinamente</b>, em outro cargo em comissão, sem prejuízo das atribuições do atual — e deve <b>optar pela remuneração de um deles</b>. §2º: comissão e função de confiança = regime de <b>integral dedicação</b>.</div>
+    </div>
+    <h3>Nomeação para cargo efetivo (art. 10) — tudo junto</h3>
+    <div class="formula">APROVAÇÃO + HABILITAÇÃO PRÉVIA + CONCURSO DE PROVAS OU PROVAS E TÍTULOS + ORDEM DE CLASSIFICAÇÃO + PRAZO DE VALIDADE</div>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY</p><p>A alternativa errada costuma <b>retirar um elemento</b>: aprovação sem habilitação; concurso só de títulos; nomeação fora da classificação ou fora do prazo de validade.</p></div>
+    <h3>Concurso público (arts. 11 a 15-B)</h3>
+    <ul class="limpa">
+      <li data-ico="🌐">Art. 11: processo de seleção <b>aberto ao público em geral</b>, atendidos os requisitos da lei e do edital.</li>
+      <li data-ico="💳">Art. 12: <b>provas</b> ou <b>provas e títulos</b>; a inscrição pode depender de pagamento quando indispensável ao custeio, ressalvadas as isenções do edital.</li>
+      <li data-ico="👥">Art. 13: <b>Comissão Especial</b> de <b>servidores municipais efetivos</b> coordena todas as etapas e julga os recursos; os membros escolhem entre si o presidente.</li>
+      <li data-ico="📰">Art. 14: edital publicado em <b>jornal diário de grande circulação</b>, com antecedência mínima de <b>15 dias</b>.</li>
+      <li data-ico="⏳">Art. 14, §1º: validade de <b>até 2 anos</b>, prorrogável <b>uma única vez</b>, <b>por igual período</b>.</li>
+      <li data-ico="🚫">Art. 15: não se abre novo concurso para o <b>mesmo cargo</b> enquanto houver aprovado em concurso anterior com validade <b>não expirada</b>.</li>
+      <li data-ico="🧪">Arts. 15-A e 15-B (LC 238/2019): o edital pode prever <b>exame toxicológico</b> e <b>exame psicotécnico</b> como critérios <b>eliminatórios</b>.</li>
+    </ul>
+    <div class="mapa">
+      <div class="m-card"><span class="m-num">15 dias</span><span class="m-txt">Antecedência mínima da publicação do edital</span></div>
+      <div class="m-card"><span class="m-num">até 2 anos</span><span class="m-txt">Validade do concurso</span></div>
+      <div class="m-card"><span class="m-num">1 vez, igual período</span><span class="m-txt">Prorrogação da validade</span></div>
+    </div>
+  </section>
+
+  <section class="secao p5" id="s20">
+    <div class="secao-num"><span class="badge-num">20</span><h2>POSSE — ARTS. 16 A 18</h2></div>
+    <div class="callout c-lom"><p class="titulo">📜 NA LEI — art. 16</p>
+      <p class="lei">"Posse é a <b>investidura no cargo</b> e se dá com <b>aceitação tácita</b> das atribuições, deveres, responsabilidades e direitos inerentes ao cargo público, formalizada com a <b>assinatura do termo</b> pelo empossado e pela autoridade competente."</p></div>
+    <h3>Prazos da posse</h3>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Regra</th><th>O que diz</th></tr></thead>
+      <tbody>
+        <tr><td>Prazo (§1º)</td><td>até <b>30 dias</b>, contados da publicação do ato de nomeação no órgão de divulgação do Município</td></tr>
+        <tr><td>Prorrogação (§1º)</td><td>por mais <b>30 dias</b></td></tr>
+        <tr><td>Prorrogação especial (§2º)</td><td>pelo tempo necessário à comprovação da capacidade física e mental pelo médico do trabalho (Saúde Ocupacional), com parecer técnico fundamentado</td></tr>
+        <tr><td>Servidor em licença (§3º)</td><td>prazo contado do <b>término do impedimento</b> — <b>exceto</b> licença para tratar de interesses particulares</td></tr>
+        <tr><td>Consequência (§4º)</td><td>sem posse no prazo inicial ou na prorrogação → a nomeação torna-se <b>sem efeito</b></td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY</p><p>Sem posse no prazo, a nomeação fica <b>sem efeito</b> — não se fala em exoneração nem em demissão (o servidor nem chegou a ser investido).</p></div>
+    <h3>Aptidão e quem dá posse (art. 17)</h3>
+    <p>Só toma posse quem for julgado <b>apto física e mentalmente</b>, por atestado da Saúde Ocupacional do Município (ou órgão designado), e tiver cumprido os demais requisitos legais.</p>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Autoridade</th><th>Dá posse a</th></tr></thead>
+      <tbody>
+        <tr><td>Prefeito</td><td>competência geral (inciso I)</td></tr>
+        <tr><td>Secretário Municipal da Administração</td><td>servidores da Administração Direta, <b>por delegação</b></td></tr>
+        <tr><td>Dirigente Superior</td><td>servidores das Autarquias e Fundações Públicas</td></tr>
+        <tr><td>Presidente da Câmara</td><td>servidores do Poder Legislativo</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Declarações no ato da posse (art. 18)</h3>
+    <ol class="passos rosado">
+      <li>bens e rendas que constituem seu patrimônio;</li>
+      <li>se ocupa ou não outro cargo, emprego ou função pública (federal, estadual ou municipal);</li>
+      <li>se participa de gerência ou administração de <b>sociedade empresária</b> ou exerce <b>atividade empresária</b> (redação da LC 344/2025 — ver seção 1);</li>
+      <li>se recebe provento de aposentadoria de cargo, emprego ou função pública;</li>
+      <li>demais documentos previstos no edital do concurso.</li>
+    </ol>
+    <div class="callout c-lom"><p class="titulo">📜 NA LEI — parágrafo único do art. 18</p><p>Os <b>comissionados</b> apresentam, além disso, declaração de que <b>não possuem relação parental que configure nepotismo</b>.</p></div>
+  </section>
+
+  <section class="secao p5" id="s21">
+    <div class="secao-num"><span class="badge-num">21</span><h2>EXERCÍCIO — ARTS. 19 A 23</h2></div>
+    <div class="callout c-lom"><p class="titulo">📜 NA LEI — art. 19</p>
+      <p class="lei">"Exercício é o <b>efetivo desempenho das atribuições do cargo</b>."</p>
+      <ul class="limpa">
+        <li data-ico="🤝">§1º: o exercício deve ocorrer <b>concomitantemente com a posse</b>.</li>
+        <li data-ico="🏢">§2º: dá exercício a autoridade competente do órgão ou entidade para onde o servidor for designado.</li>
+        <li data-ico="💰">§3º: a nomeação só produz <b>efeitos financeiros</b> a partir da data do <b>início do efetivo exercício</b>.</li>
+      </ul></div>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY</p><p>"A nomeação produz efeitos financeiros desde a sua publicação." → <b>ERRADO.</b> O marco é o <b>início do efetivo exercício</b>.</p></div>
+    <ul class="limpa">
+      <li data-ico="🗂️">Art. 20: <b>início, interrupção e reinício</b> do exercício são registrados no assentamento individual; ao entrar em exercício, o servidor apresenta os elementos necessários a esse assentamento.</li>
+      <li data-ico="✈️">Art. 21: ausência para <b>estudo ou missão</b> de qualquer natureza, <b>com ou sem vencimento</b>, só com prévia autorização do <b>Chefe de Poder</b> ou dos <b>Dirigentes</b> das Autarquias e Fundações.</li>
+      <li data-ico="📍">Art. 22: ninguém tem exercício em repartição diferente da sua lotação, salvo designação expressa da autoridade competente, por <b>ato formal</b>.</li>
+      <li data-ico="🕗">Art. 23 (LC 236/2019): jornada de no máximo <b>40 horas semanais</b> e <b>8 horas diárias</b>, salvo compensação por <b>banco de horas</b>; cargo em comissão e função gratificada exigem <b>integral dedicação</b>.</li>
+    </ul>
+    <div class="callout c-alerta"><p class="titulo">🚨 ATENÇÃO — o "30" do art. 22, parágrafo único</p>
+      <p>O servidor só pode ser nomeado para <b>cargo comissionado ou função gratificada</b> após <b>30 dias de exercício efetivo</b> no cargo em que tomou posse.</p>
+      <div class="trio"><span class="t1">30 dias p/ tomar posse (art. 16)</span><span class="t3">30 dias de EXERCÍCIO p/ comissão/FG (art. 22)</span></div></div>
+  </section>
+
+  <section class="secao p5" id="s22">
+    <div class="secao-num"><span class="badge-num">22</span><h2>ESTÁGIO PROBATÓRIO E ESTABILIDADE — ARTS. 24 E 25</h2></div>
+    <div class="alerta-max">
+      <p class="am-titulo">🚨 O MARCO INICIAL É A ENTRADA EM EXERCÍCIO</p>
+      <div class="am-grid">
+        <div class="am-card am-a"><span class="am-art">ESTÁGIO PROBATÓRIO — ART. 24</span><span class="am-q">3 ANOS</span><span class="am-d">contados da data da entrada em exercício; avaliadas a aptidão para as atribuições do cargo e a aptidão física e mental</span></div>
+        <div class="am-card am-b"><span class="am-art">ESTABILIDADE — ART. 25</span><span class="am-q">3 ANOS DE EFETIVO EXERCÍCIO</span><span class="am-d">nomeado para cargo efetivo + em virtude de concurso público + aprovado no estágio probatório</span></div>
+      </div>
+      <p class="am-regra">Não é da nomeação, nem da posse: o estágio começa ao ENTRAR EM EXERCÍCIO.</p>
+    </div>
+    <div class="dupla">
+      <div class="callout c-alerta"><p class="titulo">❌ Reprovado no estágio (art. 24, §1º)</p><p><b>Exonerado</b> — ou, se já estável em outro cargo, <b>reconduzido</b> ao cargo anteriormente ocupado.</p></div>
+      <div class="callout c-conexao"><p class="titulo">🛡️ Estável só perde o cargo (art. 25)</p><p>I — por <b>sentença judicial transitada em julgado</b>;<br>II — por <b>processo administrativo</b> com contraditório e ampla defesa.</p></div>
+    </div>
+    <p>O regulamento de cada Poder (Executivo e Legislativo) fixa os critérios da avaliação do estágio (art. 24, §2º).</p>
+    <figure class="fig">
+      <img width="900" height="502" src="data:image/webp;base64,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" alt="Raio-X do Servidor — LC 154" loading="lazy">
+      <figcaption>📷 Cargo efetivo (concurso, estágio probatório de 3 anos) × cargo em comissão (livre nomeação e exoneração). A comissão do processo disciplinar é formada por 3 servidores efetivos e estáveis (art. 207).</figcaption>
+    </figure>
+    <h3>🧠 Os 10 gatilhos deste bloco</h3>
+    <div class="mapa">
+      <div class="m-card"><span class="m-num">POSSE</span><span class="m-txt">= investidura</span></div>
+      <div class="m-card"><span class="m-num">EXERCÍCIO</span><span class="m-txt">= efetivo desempenho</span></div>
+      <div class="m-card"><span class="m-num">30 + 30</span><span class="m-txt">Prazo da posse</span></div>
+      <div class="m-card"><span class="m-num">Início do exercício</span><span class="m-txt">Efeitos financeiros</span></div>
+      <div class="m-card"><span class="m-num">3 anos</span><span class="m-txt">Estágio, a partir da entrada em exercício</span></div>
+      <div class="m-card"><span class="m-num">3 anos + aprovação</span><span class="m-txt">Estabilidade</span></div>
+      <div class="m-card"><span class="m-num">até 2 anos + 1×</span><span class="m-txt">Validade do concurso + prorrogação igual</span></div>
+      <div class="m-card"><span class="m-num">15 dias</span><span class="m-txt">Antecedência do edital</span></div>
+      <div class="m-card"><span class="m-num">até 5%</span><span class="m-txt">Vagas para pessoas com deficiência</span></div>
+      <div class="m-card"><span class="m-num">30 dias de exercício</span><span class="m-txt">Para comissão ou função gratificada</span></div>
+    </div>
+    <h3>Mapa artigo → o que guardar → forma de distração</h3>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Art.</th><th>O que guardar</th><th>Distração possível</th></tr></thead>
+      <tbody>
+        <tr><td>5º</td><td>requisitos da investidura</td><td>item falso na lista</td></tr>
+        <tr><td>6º</td><td>quem faz o provimento</td><td>trocar a autoridade</td></tr>
+        <tr><td>7º</td><td>investidura = posse</td><td>trocar posse por nomeação ou exercício</td></tr>
+        <tr><td>8º</td><td>6 formas de provimento</td><td>incluir ou excluir instituto</td></tr>
+        <tr><td>9º</td><td>efetivo × comissão</td><td>trocar a natureza do cargo</td></tr>
+        <tr><td>10</td><td>concurso + classificação + validade</td><td>retirar uma condição</td></tr>
+        <tr><td>11–15-B</td><td>comissão, 15 dias, 2 anos + 1×</td><td>números e condições</td></tr>
+        <tr><td>16</td><td>posse, 30 + 30, sem efeito</td><td>prazo ou consequência</td></tr>
+        <tr><td>17</td><td>aptidão + quem dá posse</td><td>trocar a autoridade</td></tr>
+        <tr><td>18</td><td>declarações da posse</td><td>redação antiga do inciso III</td></tr>
+        <tr><td>19</td><td>exercício, efeitos financeiros</td><td>efeitos desde a nomeação</td></tr>
+        <tr><td>20–22</td><td>registros, estudo/missão, ato formal, 30 dias</td><td>"com ou sem vencimento"; 30 de posse × de exercício</td></tr>
+        <tr><td>24–25</td><td>3 anos a partir do exercício; estabilidade</td><td>trocar o marco inicial; estabilidade automática</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout c-conexao"><p class="titulo">📌 Projeto não é lei vigente</p><p>Há projetos de alteração da LC 154 em tramitação na Câmara. Enquanto não forem aprovados e publicados, estude a redação consolidada (versão de 19/08/2026, com a LC 370/2026).</p></div>
+  </section>
+
+    <!-- ================= PARTE V — ESTATUTO BLOCO 2 ================= -->
+  <div class="parte pt6" id="parte5"><span class="parte-tag">PARTE V</span><h2>ESTATUTO DO SERVIDOR: BLOCO 2 — ARTS. 26 EM DIANTE</h2></div>
+
+  <section class="secao p6">
+    <p>O Bloco 1 terminou na estabilidade. A partir do art. 26 começa a parte que mais rende alternativa: <b>provimentos derivados</b>, <b>vacância</b>, <b>deslocamentos</b>, <b>remuneração</b>, <b>férias</b> e <b>licenças</b>. Aqui o método é sempre o mesmo: <span class="laranja">quem</span>, <span class="azul">quando</span>, <span class="verde">com qual condição</span>, <span class="roxo">em qual prazo</span> e <span class="vermelho">com qual consequência</span>.</p>
+  </section>
+
+  <section class="secao p6" id="s23">
+    <div class="secao-num"><span class="badge-num">23</span><h2>REVERSÃO × REINTEGRAÇÃO × RECONDUÇÃO — ARTS. 26 A 30</h2></div>
+    <div class="tri">
+      <div class="tri-card tc1"><p class="tri-nome">🔄 REVERSÃO</p><p class="tri-quem">quem volta: <b>APOSENTADO</b></p>
+        <p>Retorno à atividade do servidor aposentado por <b>incapacidade permanente</b>, quando o Regime Próprio de Previdência declarar <b>insubsistentes os motivos</b> da aposentadoria (art. 26, LC 266/2020).</p>
+        <ul><li>no <b>mesmo cargo</b> ou no resultante de sua transformação (art. 27);</li><li>cargo provido → exerce como <b>excedente</b> até surgir vaga;</li><li><b>não reverte</b> quem tiver idade igual ou superior à da aposentadoria <b>compulsória</b> (art. 28);</li><li>ao retornar, passa por avaliação médica do trabalho.</li></ul></div>
+      <div class="tri-card tc2"><p class="tri-nome">⚖️ REINTEGRAÇÃO</p><p class="tri-quem">quem volta: <b>ESTÁVEL DEMITIDO</b></p>
+        <p>Reinvestidura do servidor <b>estável</b> no cargo anterior (ou no transformado), quando <b>invalidada a sua demissão</b> por decisão <b>administrativa ou judicial</b> (art. 29).</p>
+        <ul><li>cargo extinto → aproveitado em outro de <b>mesmo nível e padrão</b>, com as vantagens permanentes (§1º);</li><li>cargo provido → o ocupante, se estável, é <b>reconduzido</b> (sem indenização), <b>aproveitado</b> ou posto em <b>disponibilidade</b> (§2º).</li></ul></div>
+      <div class="tri-card tc3"><p class="tri-nome">↩️ RECONDUÇÃO</p><p class="tri-quem">quem volta: <b>ESTÁVEL AO CARGO ANTERIOR</b></p>
+        <p>Retorno do servidor <b>estável</b> ao cargo anteriormente ocupado (art. 30). Decorre de:</p>
+        <ul><li>I — <b>inabilitação no estágio probatório</b> de outro cargo;</li><li>II — <b>pedido de exoneração do novo cargo</b> durante o estágio;</li><li>III — <b>reintegração do anterior ocupante</b>.</li></ul>
+        <p>Cargo de origem provido → aproveitado em cargo compatível (§2º).</p></div>
+    </div>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY — troque a pessoa e o instituto muda</p>
+      <div class="tabela-wrap"><table>
+        <thead><tr><th>Situação</th><th>Instituto</th></tr></thead>
+        <tbody>
+          <tr><td>Aposentado por incapacidade cujos motivos deixaram de existir</td><td><span class="laranja">Reversão</span></td></tr>
+          <tr><td>Estável cuja demissão foi anulada</td><td><span class="azul">Reintegração</span></td></tr>
+          <tr><td>Estável reprovado no estágio de um novo cargo</td><td><span class="verde">Recondução</span></td></tr>
+          <tr><td>Ocupante estável do cargo de quem foi reintegrado</td><td><span class="verde">Recondução</span> (ou aproveitamento / disponibilidade)</td></tr>
+        </tbody>
+      </table></div></div>
+    <div class="callout c-spoiler"><p class="titulo">🧠 MEMÓRIA</p><p class="grande">REVERSÃO = aposentado volta · REINTEGRAÇÃO = demissão invalidada · RECONDUÇÃO = estável volta ao cargo anterior</p></div>
+  </section>
+
+  <section class="secao p6" id="s24">
+    <div class="secao-num"><span class="badge-num">24</span><h2>DISPONIBILIDADE × APROVEITAMENTO (E SUBSTITUIÇÃO) — ARTS. 31 A 37</h2></div>
+    <ol class="passos verdeado">
+      <li><b>Cargo extinto</b> ou <b>declarado desnecessário</b> → o servidor <b>estável</b> fica em <b>disponibilidade remunerada</b> até o aproveitamento, no prazo de <b>até 6 meses</b> (art. 31).</li>
+      <li>A desnecessidade é declarada por ato do <b>Chefe de Poder</b> ou dos <b>Dirigentes</b> de Autarquia e Fundação, com justificativa formal (parágrafo único).</li>
+      <li><b>Aproveitamento obrigatório</b> em cargo de atribuições e vencimento compatíveis, com as vantagens permanentes, na <b>primeira vaga</b> que ocorrer (art. 32).</li>
+      <li>Depende de comprovação prévia da <b>capacidade física e mental</b> (art. 33). Apto → assume o exercício em <b>30 dias</b> da publicação do ato de aproveitamento. Incapaz → <b>aposentadoria</b>.</li>
+      <li>Não entrou em exercício no prazo → aproveitamento <b>sem efeito</b> e disponibilidade <b>cassada</b>, salvo doença comprovada pelo médico do trabalho (art. 34).</li>
+    </ol>
+    <div class="callout c-alerta"><p class="titulo">🚨 ATENÇÃO — não confunda os prazos de 30 dias</p>
+      <div class="trio"><span class="t1">posse: até 30 + 30 (art. 16)</span><span class="t2">aproveitamento: 30 dias p/ exercício (art. 33)</span><span class="t3">comissão/FG: 30 dias de exercício (art. 22)</span></div></div>
+    <h3>Substituição (arts. 35 a 37)</h3>
+    <ul class="limpa">
+      <li data-ico="🪑">Cabe no <b>impedimento legal e temporário</b> do ocupante de <b>cargo em comissão</b>.</li>
+      <li data-ico="🛡️">Recai <b>sempre</b> em servidor municipal <b>efetivo e estável</b>, por ato da autoridade competente.</li>
+      <li data-ico="💰">O substituto recebe a remuneração do cargo em comissão, <b>proporcional aos dias</b> de substituição, ressalvada a opção; <b>proibida a acumulação</b> de remuneração.</li>
+      <li data-ico="🔁">Em caso excepcional, titular de direção ou chefia pode responder <b>cumulativamente</b> por outro cargo da mesma natureza, recebendo só <b>um</b> dos cargos, por opção (art. 36).</li>
+      <li data-ico="⏹️">O retorno do titular ou a vacância do cargo fazem cessar <b>de pronto</b> a substituição (art. 37).</li>
+    </ul>
+  </section>
+
+  <section class="secao p6" id="s25">
+    <div class="secao-num"><span class="badge-num">25</span><h2>VACÂNCIA × EXONERAÇÃO × DEMISSÃO — ARTS. 38 A 40</h2></div>
+    <div class="callout c-lom"><p class="titulo">📜 NA LEI — a vacância (art. 38), declarada por ato da autoridade competente, decorre de:</p>
+      <div class="grade-temas vac">
+        <span>1 — exoneração</span><span>2 — demissão</span><span>3 — aposentadoria</span><span>4 — posse em outro cargo inacumulável (no Município, Autarquias e Fundações)</span><span>5 — falecimento</span>
+      </div>
+      <p>É uma <b>lista fechada</b>: ótima para questão do tipo "qual NÃO é hipótese de vacância?" (ex.: remoção, redistribuição, licença, disponibilidade).</p></div>
+    <div class="versus">
+      <div class="versus-head">🚪 EXONERAÇÃO</div>
+      <div class="versus-grid">
+        <div class="versus-side ent"><div class="nome">DE CARGO EFETIVO (art. 39)</div><div class="paises">I — a pedido do servidor<br>II — quando não satisfeitas as condições do estágio probatório (avaliação especial de desempenho)</div></div>
+        <div class="versus-vs">🆚</div>
+        <div class="versus-side ali"><div class="nome">DE CARGO EM COMISSÃO (art. 40)</div><div class="paises">I — a juízo da autoridade competente<br>II — a pedido do próprio servidor</div></div>
+      </div>
+      <div class="versus-nota">Nos dois casos, os valores devidos são pagos até o <b>10º dia</b> contado da exoneração.</div>
+    </div>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY — exoneração não é pena</p><p><b>Exoneração</b> = desligamento sem caráter punitivo (a pedido, reprovação no estágio, ou "a juízo" no cargo em comissão). <b>Demissão</b> = <b>penalidade</b>, aplicada nas hipóteses do art. 186 (seção 32). Reprovação no estágio gera <b>exoneração</b>, não demissão.</p></div>
+  </section>
+
+  <section class="secao p6" id="s26">
+    <div class="secao-num"><span class="badge-num">26</span><h2>REMOÇÃO × REDISTRIBUIÇÃO — ARTS. 41 A 50</h2></div>
+    <div class="alerta-max">
+      <p class="am-titulo">🚨 QUEM SE DESLOCA: O SERVIDOR OU O CARGO?</p>
+      <div class="am-grid">
+        <div class="am-card am-a"><span class="am-art">REMOÇÃO — ART. 41</span><span class="am-q">DESLOCA O SERVIDOR</span><span class="am-d">para preencher vaga no âmbito do <b>mesmo quadro funcional</b></span></div>
+        <div class="am-card am-b"><span class="am-art">REDISTRIBUIÇÃO — ART. 48</span><span class="am-q">DESLOCA O CARGO</span><span class="am-d">cargo <b>efetivo, ocupado ou vago</b>, do quadro permanente para <b>outro órgão ou entidade do mesmo Poder</b>, no interesse da Administração</span></div>
+      </div>
+    </div>
+    <h3>Remoção</h3>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Forma (art. 42)</th><th>Regra</th></tr></thead>
+      <tbody>
+        <tr><td>Processo seletivo interno (art. 43)</td><td>quando há <b>mais interessados que vagas</b>; o concurso de remoção <b>precede</b> o concurso de ingresso</td></tr>
+        <tr><td>Permuta (art. 44)</td><td>consenso dos dois interessados + conveniência administrativa; mesma <b>categoria funcional</b>, mesmo <b>regime de trabalho</b> e mesma <b>habilitação profissional</b></td></tr>
+        <tr><td>De ofício — <b>excepcionalmente</b> (art. 45)</td><td>interesse público + <b>prévia justificativa</b> que caracterize a desnecessidade do serviço na lotação; ato <b>motivado</b> (fatos + fundamentos jurídicos)</td></tr>
+      </tbody>
+    </table></div>
+    <ul class="limpa">
+      <li data-ico="⏱️">O removido assume o exercício no novo local em <b>até 5 dias</b> a contar do ato, salvo determinação em contrário (art. 46).</li>
+    </ul>
+    <div class="callout c-alerta"><p class="titulo">🚫 NÃO HAVERÁ REMOÇÃO (art. 47)</p>
+      <p class="chips"><span>servidor em estágio probatório</span><span>servidor em licença</span><span>servidor respondendo a processo administrativo</span><span>servidor reabilitado ou em reabilitação</span></p></div>
+    <h3>Redistribuição</h3>
+    <ul class="limpa">
+      <li data-ico="🏢">Ocorre <b>de ofício</b>, para ajustar lotação e força de trabalho, e também em <b>reorganização, extinção ou criação</b> de órgão ou entidade (art. 49).</li>
+      <li data-ico="⏸️">Extinto o cargo ou declarado desnecessário, o estável <b>não redistribuído</b> vai para <b>disponibilidade</b> até o aproveitamento (art. 50 → arts. 31 a 34).</li>
+    </ul>
+  </section>
+
+  <section class="secao p6" id="s27">
+    <div class="secao-num"><span class="badge-num">27</span><h2>VENCIMENTO × REMUNERAÇÃO — ARTS. 51 A 60</h2></div>
+    <div class="dupla">
+      <div class="callout c-conexao"><p class="titulo">💵 VENCIMENTO — art. 51</p><p class="lei">"retribuição pecuniária <b>básica</b> pelo exercício do cargo público, com valor <b>fixado em lei</b>."</p></div>
+      <div class="callout c-sacada"><p class="titulo">💰 REMUNERAÇÃO — art. 52</p><p class="lei">"vencimento do cargo efetivo ou de comissão estabelecido em lei, paga a cada mês, <b>acrescido das vantagens pecuniárias</b> pagas em caráter <b>permanente e temporário</b>."</p></div>
+    </div>
+    <div class="formula">REMUNERAÇÃO = VENCIMENTO + VANTAGENS PERMANENTES + VANTAGENS TEMPORÁRIAS</div>
+    <ul class="limpa">
+      <li data-ico="📜">Remuneração só é fixada ou alterada por <b>lei específica</b>; revisão anual <b>até o mês de abril</b> (art. 53). Teto: vinculado ao Poder, incluindo as vantagens pessoais, sem ultrapassar o <b>subsídio do Prefeito</b> (parágrafo único, LC 260/2020).</li>
+      <li data-ico="📉">Nenhum vencimento para <b>40 h semanais</b> abaixo do <b>salário-mínimo estadual</b> (art. 54).</li>
+      <li data-ico="🔒">Vantagem <b>permanente</b> = incorpora-se de forma definitiva e acompanha na aposentadoria; <b>temporária</b> = caráter transitório (art. 55).</li>
+      <li data-ico="⏰">Perde a remuneração do dia sem comparecimento (salvo justificativa do superior) e a parcela proporcional a atrasos/saídas <b>superiores a 15 minutos</b> diários — nesse caso o desconto é <b>integral</b> (art. 56). <b>2 ou mais</b> faltas injustificadas na semana → desconta também o repouso e o feriado intercalados.</li>
+    </ul>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Desconto em folha (art. 57)</th><th>O que é</th><th>Parcela máxima</th></tr></thead>
+      <tbody>
+        <tr><td>Indenização</td><td>dano causado pelo servidor, com dolo ou culpa</td><td><b>10%</b> da remuneração ou provento</td></tr>
+        <tr><td>Reposição</td><td>devolução de valores pagos indevidamente</td><td><b>25%</b> — ou parcela <b>única</b> se o pagamento indevido foi no mês anterior</td></tr>
+      </tbody>
+    </table></div>
+    <ul class="limpa">
+      <li data-ico="⌛">Demitido, exonerado ou com aposentadoria/disponibilidade cassada em débito: <b>60 dias</b> para quitar, sob pena de <b>dívida ativa</b> (art. 58).</li>
+      <li data-ico="🛡️">Remuneração e provento não sofrem arresto, sequestro ou penhora, salvo <b>pensão alimentícia</b> (art. 60).</li>
+    </ul>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY</p><p>Trocar "vencimento" por "remuneração" na definição. Vencimento é a parte <b>básica</b>; remuneração é o <b>todo</b> (vencimento + vantagens).</p></div>
+  </section>
+
+  <section class="secao p6" id="s28">
+    <div class="secao-num"><span class="badge-num">28</span><h2>FÉRIAS — ARTS. 108 A 119</h2></div>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Regra</th><th>Número</th></tr></thead>
+      <tbody>
+        <tr><td>Férias anuais (art. 108)</td><td><b>30 dias consecutivos</b>, acumuláveis até <b>2 períodos</b> por necessidade do serviço justificada pela chefia</td></tr>
+        <tr><td>1º período aquisitivo</td><td><b>12 meses</b> de exercício (exceto Magistério e férias coletivas)</td></tr>
+        <tr><td>6 a 14 faltas injustificadas (art. 109)</td><td>férias de <b>24 dias</b></td></tr>
+        <tr><td>15 a 23 faltas injustificadas</td><td>férias de <b>18 dias</b></td></tr>
+        <tr><td>24 a 30 faltas injustificadas</td><td>férias de <b>12 dias</b></td></tr>
+        <tr><td>Perde o direito (art. 113)</td><td>faltas sem justificativa, com desconto, por <b>mais de 31 dias</b>; ou afastamentos de saúde/acidente/doença em pessoa da família somando <b>mais de 180 dias</b>, consecutivos ou não (exceto licença à gestante)</td></tr>
+        <tr><td>Abono pecuniário (art. 114)</td><td>converter <b>1/3</b>, requerido até o <b>15º dia do mês</b> — não cabe na redução para 12 dias</td></tr>
+        <tr><td>Raios X / substâncias radioativas (art. 115)</td><td><b>20 dias</b> por <b>semestre</b>, sem acumulação e sem abono</td></tr>
+        <tr><td>Pedido e parcelamento (art. 117)</td><td>pedir com <b>15 dias</b> de antecedência; parcelas de no mínimo <b>10 dias</b></td></tr>
+        <tr><td>Pagamento (art. 118)</td><td>até <b>2 dias antes</b> do início</td></tr>
+        <tr><td>Exoneração (art. 111)</td><td>período incompleto: <b>1/12</b> por mês ou fração <b>≥ 15 dias</b></td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY</p><p>É <b>vedado descontar do período de férias</b> as faltas do servidor (art. 110): as faltas <b>reduzem</b> as férias pela escala do art. 109, mas não são "abatidas" dia a dia. Férias só são interrompidas por calamidade pública, comoção interna, júri, serviço militar ou eleitoral ou superior interesse público (art. 116).</p></div>
+  </section>
+
+  <section class="secao p6" id="s29">
+    <div class="secao-num"><span class="badge-num">29</span><h2>LICENÇAS E AFASTAMENTOS — ARTS. 121 A 150</h2></div>
+    <div class="callout c-lom"><p class="titulo">📜 NA LEI — as 10 licenças do art. 121</p>
+      <p class="chips"><span>I — doença em pessoa da família</span><span>II — serviço militar obrigatório</span><span>III — interesses particulares</span><span>IV — prêmio</span><span>V — atividade política</span><span>VI — cursos, congressos e competições esportivas</span><span>VII — mandato classista</span><span>VIII — gestante e adotante</span><span>IX — paternidade</span><span>X — acidente em serviço</span></p>
+      <p>Concede: <b>Chefe de Poder</b> ou <b>Dirigentes</b> de Autarquias e Fundações (art. 123). Pedido de prorrogação: <b>30 dias antes</b> do fim da licença (art. 122).</p></div>
+    <div class="tabela-wrap t4 lic"><table>
+      <thead><tr><th>Licença</th><th>Quem / condição</th><th>Remuneração</th><th>Prazo</th></tr></thead>
+      <tbody>
+        <tr><td>Doença em pessoa da família (art. 125)</td><td>servidor <b>efetivo</b>; cônjuge, companheiro, filhos, enteados e pais; assistência indispensável (Junta Médica + acompanhamento social)</td><td>integral nos <b>30 primeiros dias</b>; depois <b>70% / 50% / sem</b></td><td>até 6 meses (70%); 7 a 12 meses (50%); 13 a 24 meses (sem)</td></tr>
+        <tr><td>Interesses particulares (art. 127)</td><td>efetivo <b>e estável</b>, a critério da Administração</td><td><b>sem</b></td><td><b>2 anos</b> consecutivos, prorrogável por igual período</td></tr>
+        <tr><td>Serviço militar (art. 126)</td><td>convocado</td><td>legislação federal</td><td>após o serviço, até <b>30 dias</b> sem remuneração para reassumir</td></tr>
+        <tr><td>Prêmio (art. 133)</td><td>servidor <b>efetivo</b></td><td>com (1/3 conversível em abono)</td><td><b>90 dias</b> após <b>10 anos</b> ininterruptos; + 90 a cada <b>5 anos</b>; parcelas ≥ <b>15 dias</b></td></tr>
+        <tr><td>Atividade política (art. 137)</td><td>candidato</td><td>com, do registro até o dia seguinte à eleição</td><td>período de desincompatibilização</td></tr>
+        <tr><td>Cursos, congressos, competições (art. 138)</td><td>convocado ou designado, com autorização expressa</td><td><b>integral</b></td><td>—</td></tr>
+        <tr><td>Mandato classista (art. 139)</td><td>até <b>5</b> diretores do Sindicato</td><td><b>2</b> pagos pelo Município</td><td>igual ao mandato; prorroga na reeleição</td></tr>
+        <tr><td>Gestante (art. 140)</td><td>servidora</td><td>com</td><td><b>180 dias</b>; início até <b>28 dias</b> antes do parto; aborto não criminoso: <b>30 dias</b></td></tr>
+        <tr><td>Adotante (art. 141)</td><td>servidor(a), ainda que solteiro(a); criança/adolescente até <b>14 anos</b></td><td>com</td><td><b>180 dias</b>; pedir em até <b>5 dias úteis</b></td></tr>
+        <tr><td>Paternidade (art. 142)</td><td>servidor</td><td>com</td><td><b>5 dias</b> consecutivos</td></tr>
+        <tr><td>Acidente em serviço (art. 143)</td><td>servidor acidentado</td><td><b>integral</b></td><td>prova do acidente em <b>2 dias úteis</b> (art. 147)</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY — interesses particulares (arts. 127 a 131)</p>
+      <ul class="limpa">
+        <li data-ico="✅">efetivo <b>+ estável</b> + <b>sem remuneração</b> + <b>2 anos</b> + prorrogação por <b>igual período</b>;</li>
+        <li data-ico="🚫">nova licença só depois de <b>2 anos</b> do término da anterior;</li>
+        <li data-ico="🚫">não se concede a quem foi nomeado para outro cargo efetivo ou removido há menos de <b>3 anos</b>, nem a quem responde a <b>processo disciplinar</b>;</li>
+        <li data-ico="🚫">não se concede a ocupante de <b>cargo em comissão</b> ou <b>função de confiança</b>, nessa qualidade;</li>
+        <li data-ico="⏳">o servidor aguarda <b>em exercício</b> a decisão, comunicada em até <b>30 dias</b>.</li>
+      </ul>
+      <p>Basta tirar uma condição ("efetivo" sem "estável", "com remuneração") para a alternativa ficar errada.</p></div>
+    <div class="callout c-spoiler"><p class="titulo">🧠 MEMÓRIA — escadinha da doença em pessoa da família</p>
+      <div class="trio"><span class="t1">até 30 dias: 100%</span><span class="t2">até 6 meses: 70%</span><span class="t3">7–12 meses: 50%</span><span class="t4x">13–24 meses: sem</span></div></div>
+    <h3>Afastamentos (arts. 148 a 150)</h3>
+    <ul class="limpa">
+      <li data-ico="🏛️">Permitidos para: cargo em comissão em outra esfera; candidatura e exercício de mandato eletivo; serviço militar; ficar à disposição de outra entidade por convênio (com anuência do servidor); competições esportivas oficiais; tratamento da própria saúde (art. 148).</li>
+      <li data-ico="🌍">Para servir em <b>organismo internacional</b>: com <b>perda total</b> da remuneração.</li>
+      <li data-ico="⚖️">Afastamento formal quando <b>preso</b> preventivamente ou em flagrante, pronunciado ou condenado nos casos do art. 149, com abertura <b>simultânea</b> de processo disciplinar.</li>
+    </ul>
+  </section>
+
+  <!-- ================= PARTE VI — REGIME DISCIPLINAR ================= -->
+  <div class="parte pt7" id="parte6"><span class="parte-tag">PARTE VI</span><h2>DEVERES, PROIBIÇÕES, RESPONSABILIDADES E PAD</h2></div>
+
+  <section class="secao p7" id="s30">
+    <div class="secao-num"><span class="badge-num">30</span><h2>DEVERES × PROIBIÇÕES — ARTS. 173 E 174</h2></div>
+    <p>Não é preciso decorar os 15 deveres e as 22 proibições em ordem. O que resolve a questão é reconhecer as <b>palavras-gatilho</b> e saber de que lado cada uma está.</p>
+    <div class="dupla">
+      <div class="callout c-sacada"><p class="titulo">✅ DEVERES (art. 173)</p>
+        <p class="chips verdes"><span>zelo e dedicação</span><span>assiduidade</span><span>pontualidade</span><span>discrição</span><span>cortesia</span><span>normas legais</span><span>ordens superiores, salvo manifestamente ilegais</span><span>comunicar irregularidade</span><span>economia do material</span><span>comunicar o não comparecimento</span><span>presteza (público, certidões, Fazenda)</span><span>sugerir melhorias</span><span>sigilo</span><span>lealdade</span><span>moralidade e bons costumes</span></p></div>
+      <div class="callout c-alerta"><p class="titulo">🚫 PROIBIÇÕES (art. 174)</p>
+        <p class="chips vermelhos"><span>ausentar-se sem autorização</span><span>retirar documento/objeto</span><span>recusar fé a documento público</span><span>resistência injustificada</span><span>referir-se de modo depreciativo</span><span>cometer encargo a estranho</span><span>obrigar filiação</span><span>não atualizar cadastro</span><span>atribuições estranhas a outro servidor</span><span>assunto particular em prejuízo do serviço</span><span>atividade estranha no horário</span><span>internet/atividades estranhas no trabalho</span><span>álcool ou entorpecentes</span><span>usar pessoal/recursos em atividade particular</span><span>proveito pessoal</span><span>gerência de sociedade empresária com vínculo com o Município</span><span>procurador/intermediário</span><span>propina</span><span>usura</span><span>desídia</span><span>contratos onerosos com o Município</span><span>violar prerrogativas de advogados</span></p></div>
+    </div>
+    <div class="callout c-alerta"><p class="titulo">🚨 ATENÇÃO — a proibição define a pena</p>
+      <div class="tabela-wrap"><table>
+        <thead><tr><th>Violação do art. 174</th><th>Penalidade</th><th>Base</th></tr></thead>
+        <tbody>
+          <tr><td>incisos <b>I a XIII</b> e <b>XXII</b> (+ dever funcional)</td><td><span class="laranja">Advertência</span></td><td>art. 183</td></tr>
+          <tr><td>incisos <b>XIV a XXI</b></td><td><span class="vermelho">Demissão</span></td><td>art. 186, VIII</td></tr>
+        </tbody>
+      </table></div>
+      <p>O inciso <b>XVI</b> (gerência de sociedade empresária — LC 344/2025, seção 1) está na faixa XIV–XXI: violá-lo leva à <b>demissão</b>.</p></div>
+    <div class="callout c-lom"><p class="titulo">📜 NA LEI — exceção no inciso XVII</p><p>É proibido ser procurador ou intermediário perante órgão municipal, <b>exceto</b> para parentes em linha reta ou colateral até o <b>2º grau</b>, cônjuge ou companheiro.</p></div>
+  </section>
+
+  <section class="secao p7" id="s31">
+    <div class="secao-num"><span class="badge-num">31</span><h2>ACUMULAÇÃO DE CARGOS — ARTS. 175 E 176</h2></div>
+    <div class="callout c-alerta"><p class="titulo">🚫 REGRA: é VEDADA a acumulação remunerada de cargos públicos</p>
+      <p>Exceções — <b>sempre com compatibilidade de horários</b>:</p>
+      <ol class="passos verdeado"><li><b>2 cargos de professor</b>;</li><li><b>1 de professor + 1 técnico ou científico</b>;</li><li><b>2 cargos ou empregos privativos de profissionais de saúde</b>, com profissões regulamentadas.</li></ol></div>
+    <ul class="limpa">
+      <li data-ico="🏢">A proibição se estende a <b>empregos e funções</b> e abrange Autarquias, <b>Empresas Públicas</b>, <b>Sociedades de Economia Mista</b> e Fundações (§1º).</li>
+      <li data-ico="🕗">Mesmo lícita, a acumulação depende de <b>comprovar a compatibilidade de horários</b> (§2º).</li>
+      <li data-ico="👴">Vencimento de cargo efetivo + <b>proventos da inatividade</b> também é acumulação proibida, salvo se os cargos fossem acumuláveis na atividade (§3º).</li>
+    </ul>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Art. 176</th><th>Definição</th></tr></thead>
+      <tbody>
+        <tr><td>Cargo de professor</td><td>atribuição principal e permanente <b>estritamente docente</b> (preparar e ministrar aulas, em qualquer grau)</td></tr>
+        <tr><td>Cargo científico</td><td>exige conhecimento científico — <b>diploma de nível superior exigido</b></td></tr>
+        <tr><td>Cargo técnico</td><td>exige especialidade técnica definida — <b>diploma de nível superior dispensado</b></td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout c-conexao"><p class="titulo">🔗 Acumulação ilegal detectada (arts. 187, 188 e 214)</p><p>O servidor é notificado para <b>optar</b> em <b>15 dias improrrogáveis</b>. Sem opção → procedimento <b>sumário</b>. Opção até o último dia da defesa = <b>boa-fé</b> (vira pedido de exoneração do outro cargo). Provada a <b>má-fé</b> → demissão, destituição ou cassação.</p></div>
+  </section>
+
+  <section class="secao p7" id="s32">
+    <div class="secao-num"><span class="badge-num">32</span><h2>PENALIDADES E PRESCRIÇÃO — ARTS. 177 A 196</h2></div>
+    <ul class="limpa">
+      <li data-ico="⚖️">O servidor responde <b>civil, penal e administrativamente</b>; as sanções podem <b>cumular-se</b> e são <b>independentes</b> (arts. 177 e 180).</li>
+      <li data-ico="🧾">A responsabilidade administrativa é afastada por <b>absolvição criminal que negue a existência do fato ou a autoria</b> (art. 179).</li>
+    </ul>
+    <div class="callout c-lom"><p class="titulo">📜 NA LEI — as 7 penalidades (art. 181)</p>
+      <p class="chips"><span>advertência</span><span>suspensão</span><span>demissão</span><span>cassação de aposentadoria ou disponibilidade</span><span>destituição de função de confiança</span><span>destituição de cargo em comissão</span><span>multa</span></p></div>
+    <div class="tabela-wrap t4"><table>
+      <thead><tr><th>Penalidade</th><th>Quando</th><th>Quem aplica (art. 194)</th><th>Prescrição (art. 196)</th></tr></thead>
+      <tbody>
+        <tr><td>Advertência (art. 183)</td><td>por escrito; art. 174, I–XIII e XXII; dever funcional</td><td>chefia imediata ou autoridade superior</td><td><b>6 meses</b></td></tr>
+        <tr><td>Suspensão (art. 184)</td><td>reincidência em advertência; demais proibições sem demissão; até <b>30 dias</b>, via PAD</td><td>Chefe de Poder ou Dirigente</td><td><b>2 anos</b></td></tr>
+        <tr><td>Demissão (art. 186)</td><td>crime contra a Administração; abandono; inassiduidade; improbidade; incontinência pública; insubordinação grave; ofensa física; art. 174, XIV–XXI</td><td>Chefe de Poder ou Dirigente</td><td><b>5 anos</b></td></tr>
+        <tr><td>Cassação de aposentadoria / disponibilidade (arts. 191–192)</td><td>falta punível com demissão praticada na atividade; disponibilidade: também aceitar ilegalmente cargo</td><td>Chefe de Poder ou Dirigente</td><td><b>5 anos</b></td></tr>
+        <tr><td>Destituição de cargo em comissão / função de confiança</td><td>—</td><td>Chefe de Poder ou Dirigente</td><td><b>5 anos</b></td></tr>
+      </tbody>
+    </table></div>
+    <div class="alerta-max">
+      <p class="am-titulo">🚨 PRESCRIÇÃO DISCIPLINAR (art. 196)</p>
+      <div class="am-grid tres">
+        <div class="am-card am-b"><span class="am-art">DEMISSÃO, CASSAÇÕES, DESTITUIÇÕES</span><span class="am-q">5 ANOS</span></div>
+        <div class="am-card am-a"><span class="am-art">SUSPENSÃO</span><span class="am-q">2 ANOS</span></div>
+        <div class="am-card am-c"><span class="am-art">ADVERTÊNCIA</span><span class="am-q">6 MESES</span></div>
+      </div>
+      <p class="am-nota">Conta da data em que o fato se tornou <b>conhecido</b>. Sindicância ou PAD <b>interrompem</b> a prescrição. Infração que também é crime segue os prazos da <b>lei penal</b>.</p>
+    </div>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Outros números das penalidades</th><th>Regra</th></tr></thead>
+      <tbody>
+        <tr><td>Suspensão por recusar inspeção médica</td><td>até <b>15 dias</b>, cessando ao cumprir a determinação (art. 184, parágrafo único)</td></tr>
+        <tr><td>Reincidência (art. 185)</td><td>advertência deixa de contar após <b>3 anos</b>; suspensão após <b>5 anos</b> de efetivo exercício, sem nova infração</td></tr>
+        <tr><td>Proibição de nova investidura (art. 189)</td><td><b>5 anos</b> — demissão ou destituição por violar o art. 174, <b>XV ou XVII</b></td></tr>
+        <tr><td>Nunca mais retorna (art. 190)</td><td>demitido/destituído/cassado por <b>crime contra a Administração</b> ou <b>improbidade</b> (art. 186, I e IV)</td></tr>
+        <tr><td>Várias faltas numa só conduta (art. 193)</td><td>aplica-se a penalidade <b>mais grave</b></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="secao p7" id="s33">
+    <div class="secao-num"><span class="badge-num">33</span><h2>ABANDONO × INASSIDUIDADE HABITUAL — ARTS. 197 A 201</h2></div>
+    <div class="alerta-max">
+      <p class="am-titulo">🚨 NÃO CONFUNDA</p>
+      <div class="am-grid">
+        <div class="am-card am-a"><span class="am-art">ABANDONO DE CARGO — ART. 197</span><span class="am-q">MAIS DE 30 DIAS CONSECUTIVOS</span><span class="am-d">ausência <b>intencional ou injustificada</b> ao serviço</span></div>
+        <div class="am-card am-b"><span class="am-art">INASSIDUIDADE HABITUAL — ART. 198</span><span class="am-q">30 DIAS OU MAIS, INTERPOLADOS</span><span class="am-d">faltas <b>sem causa justificada</b> durante os <b>últimos 12 meses</b></span></div>
+      </div>
+      <p class="am-regra">Consecutivos → abandono. Interpolados (salteados) em 12 meses → inassiduidade. Os dois levam à demissão.</p>
+    </div>
+    <ul class="limpa">
+      <li data-ico="📣">O chefe imediato deve comunicar as faltas ao órgão de pessoal, sob pena de se tornar <b>corresponsável</b> (art. 199).</li>
+      <li data-ico="🧮">Para contar as faltas, as <b>horas são convertidas em dias</b> (art. 200).</li>
+      <li data-ico="⚡">A apuração segue o <b>procedimento sumário</b> (art. 201): conclusão em até <b>30 dias</b>, prorrogável por até <b>15</b>; defesa escrita em <b>5 dias úteis</b>; decisão em <b>10 dias úteis</b> (arts. 213 e 215).</li>
+    </ul>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY — a redação muda de artigo para artigo</p>
+      <p>O art. 197 fala em "<b>mais de</b> 30 dias consecutivos", mas o art. 215, I, "a" (materialidade no procedimento sumário) fala em período "<b>igual ou superior a</b> 30 dias consecutivos". E o art. 150 fala em interromper o exercício, em 12 meses, por mais de 30 dias consecutivos ou alternados. Responda pela <b>letra do artigo que a questão citar</b>.</p></div>
+  </section>
+
+  <section class="secao p7" id="s34">
+    <div class="secao-num"><span class="badge-num">34</span><h2>SINDICÂNCIA E PAD — ARTS. 202 A 254</h2></div>
+    <ul class="limpa">
+      <li data-ico="🔎">Quem souber de irregularidade é <b>obrigado</b> a apurá-la, por <b>sindicância</b> ou <b>PAD</b>, com ampla defesa e contraditório (art. 202).</li>
+      <li data-ico="✉️">Denúncia só é apurada se tiver <b>identificação e endereço</b> do denunciante, por escrito e com autenticidade confirmada (art. 203).</li>
+      <li data-ico="⏱️">Sindicância: conclusão em até <b>30 dias</b>, prorrogável por igual período; pode resultar em arquivamento ou abertura de PAD (art. 205).</li>
+    </ul>
+    <div class="dupla">
+      <div class="callout c-conexao"><p class="titulo">👥 COMISSÃO PROCESSANTE (art. 207)</p>
+        <p><b>3 servidores efetivos e estáveis</b>, designados pela autoridade competente, que indica o Presidente. Secretário designado pelo Presidente (pode ser um dos membros).</p>
+        <p>🚫 Não participa <b>parente do acusado</b>, consanguíneo ou afim, linha reta ou colateral, <b>até o 3º grau</b>.</p></div>
+      <div class="callout c-alerta"><p class="titulo">⏸️ AFASTAMENTO PREVENTIVO (art. 206)</p>
+        <p>Medida cautelar para o servidor não influir na apuração: até <b>60 dias</b>, <b>sem prejuízo da remuneração</b>, prorrogável por <b>igual prazo</b> — depois cessa, mesmo sem o processo concluído.</p></div>
+    </div>
+    <h3>As 4 fases do processo disciplinar (art. 210)</h3>
+    <ol class="passos verdeado"><li><b>Instauração</b> — com a publicação do ato;</li><li><b>Instrução</b> — contraditória, com ampla defesa;</li><li><b>Relatório final</b> — conclusivo quanto à inocência ou responsabilidade;</li><li><b>Julgamento</b> — pela autoridade que instaurou.</li></ol>
+    <div class="tabela-wrap"><table>
+      <thead><tr><th>Ponto do PAD</th><th>Número / regra</th></tr></thead>
+      <tbody>
+        <tr><td>Testemunhas da defesa (art. 211)</td><td>até <b>5</b>, salvo as testemunhas <b>referidas</b></td></tr>
+        <tr><td>Defesa após citação pessoal (art. 217)</td><td><b>10 dias</b> consecutivos; 2 ou mais investigados: prazo comum de <b>20 dias</b></td></tr>
+        <tr><td>Citação por edital (art. 218)</td><td>prazo de <b>15 dias</b>; edital publicado <b>uma vez</b> em jornal de grande circulação</td></tr>
+        <tr><td>Revelia (art. 220)</td><td>devolve o prazo de defesa; <b>defensor dativo</b> com nível superior</td></tr>
+        <tr><td>Intimação de testemunhas (art. 226)</td><td><b>3 dias úteis</b> antes se servidor; <b>5 dias úteis</b> se particular</td></tr>
+        <tr><td>Defesa final (art. 236)</td><td><b>10 dias</b>; 2 ou mais acusados: <b>20 dias</b></td></tr>
+        <tr><td>Julgamento (art. 240)</td><td>em <b>20 dias</b> do recebimento do processo; acata o relatório, <b>salvo se contrário às provas</b> (aí pode agravar, abrandar ou isentar)</td></tr>
+        <tr><td>Revisão (arts. 246 e 251)</td><td>pedida em até <b>2 anos</b> do julgamento, com <b>fatos novos</b>; Comissão Revisora: <b>60 dias</b> + igual prazo; ônus da prova do requerente</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout c-alerta"><p class="titulo">💣 PEGADINHA TUPY</p>
+      <ul class="limpa">
+        <li data-ico="❗">"Simples alegação de injustiça" <b>não</b> fundamenta revisão — precisa de elementos novos (art. 248).</li>
+        <li data-ico="❗">Quem responde a PAD só pode ser <b>exonerado a pedido</b> ou <b>aposentado voluntariamente</b> depois da conclusão e do cumprimento da pena (art. 245).</li>
+        <li data-ico="❗">Revisão procedente em demissão de <b>cargo em comissão</b>: a demissão é convertida em <b>exoneração</b> (art. 254).</li>
+        <li data-ico="❗">Procedimento sumário só para <b>abandono</b>, <b>inassiduidade</b> e <b>acumulação ilegal</b> (art. 213).</li>
+      </ul></div>
+  </section>
+
+  <!-- ================= PARTE VII ================= -->
+  <div class="parte pt4" id="parte7"><span class="parte-tag">PARTE VII</span><h2>REVISÃO FINAL</h2></div>
+
+  <section class="secao p4" id="s35">
+    <div class="secao-num"><span class="badge-num">35</span><h2>MAPA DE NÚMEROS</h2></div>
     <h3>⏱️ PRAZOS</h3>
     <div class="mapa">
       <div class="m-card"><span class="m-num">Mais de 15 dias</span><span class="m-txt">Ausência do Prefeito/Vice que exige autorização (art. 8º, VI)</span></div>
@@ -1013,6 +1636,11 @@
       <div class="m-card"><span class="m-num">30 dias</span><span class="m-txt">Câmara aprecia o veto / urgência pedida pelo Prefeito</span></div>
       <div class="m-card"><span class="m-num">90 dias</span><span class="m-txt">Câmara julga as contas</span></div>
       <div class="m-card"><span class="m-num">60 dias</span><span class="m-txt">Contas à disposição do contribuinte</span></div>
+      <div class="m-card lc"><span class="m-num">30 + 30 dias</span><span class="m-txt">Posse, contados da publicação da nomeação (LC 154, art. 16)</span></div>
+      <div class="m-card lc"><span class="m-num">30 dias de exercício</span><span class="m-txt">Mínimo para cargo comissionado ou função gratificada (art. 22)</span></div>
+      <div class="m-card lc"><span class="m-num">15 dias</span><span class="m-txt">Antecedência mínima do edital de concurso (art. 14)</span></div>
+      <div class="m-card lc"><span class="m-num">até 2 anos + 1×</span><span class="m-txt">Validade do concurso, prorrogável uma vez por igual período (art. 14)</span></div>
+      <div class="m-card lc"><span class="m-num">3 anos</span><span class="m-txt">Estágio probatório (da entrada em exercício) e estabilidade (art. 24–25)</span></div>
     </div>
     <h3>⚖️ QUÓRUNS</h3>
     <div class="mapa">
@@ -1026,15 +1654,48 @@
     <h3>🔢 OUTROS NÚMEROS ESTRUTURAIS</h3>
     <div class="mapa">
       <div class="m-card e"><span class="m-num">11</span><span class="m-txt">Vereadores</span></div>
+    <h3>🧨 OS NÚMEROS DO ESTATUTO — BLOCOS 2 E 3</h3>
+    <div class="mapa">
+      <div class="m-card lc"><span class="m-num">até 6 meses</span><span class="m-txt">Disponibilidade remunerada até o aproveitamento (art. 31)</span></div>
+      <div class="m-card lc"><span class="m-num">30 dias</span><span class="m-txt">Assumir exercício após aproveitamento (art. 33)</span></div>
+      <div class="m-card lc"><span class="m-num">10º dia</span><span class="m-txt">Pagamento dos valores da exoneração (arts. 39–40)</span></div>
+      <div class="m-card lc"><span class="m-num">5 dias</span><span class="m-txt">Removido assume no novo local (art. 46)</span></div>
+      <div class="m-card lc"><span class="m-num">15 min</span><span class="m-txt">Atraso acima disso → desconto integral (art. 56)</span></div>
+      <div class="m-card lc"><span class="m-num">10% / 25%</span><span class="m-txt">Parcela máxima de indenização / reposição (art. 57)</span></div>
+      <div class="m-card lc"><span class="m-num">60 dias</span><span class="m-txt">Quitar débito com o erário após demissão/exoneração (art. 58)</span></div>
+      <div class="m-card lc"><span class="m-num">30 dias / 2 períodos</span><span class="m-txt">Férias anuais / acúmulo máximo (art. 108)</span></div>
+      <div class="m-card lc"><span class="m-num">24 / 18 / 12 dias</span><span class="m-txt">Férias com 6–14 / 15–23 / 24–30 faltas (art. 109)</span></div>
+      <div class="m-card lc"><span class="m-num">+31 faltas / +180 dias</span><span class="m-txt">Perda do direito às férias (art. 113)</span></div>
+      <div class="m-card lc"><span class="m-num">1/3 até o dia 15</span><span class="m-txt">Abono pecuniário de férias (art. 114)</span></div>
+      <div class="m-card lc"><span class="m-num">100% → 70% → 50% → 0</span><span class="m-txt">Doença em pessoa da família: 30 dias / 6 / 12 / 24 meses (art. 125)</span></div>
+      <div class="m-card lc"><span class="m-num">2 anos + igual</span><span class="m-txt">Licença para interesses particulares (art. 127)</span></div>
+      <div class="m-card lc"><span class="m-num">90 dias / 10 anos</span><span class="m-txt">Licença-prêmio; +90 a cada 5 anos (art. 133)</span></div>
+      <div class="m-card lc"><span class="m-num">180 / 180 / 5 dias</span><span class="m-txt">Gestante / adotante / paternidade (arts. 140–142)</span></div>
+      <div class="m-card lc"><span class="m-num">15 dias</span><span class="m-txt">Optar na acumulação ilegal (art. 187)</span></div>
+      <div class="m-card lc"><span class="m-num">até 30 / até 15 dias</span><span class="m-txt">Suspensão / suspensão por recusar inspeção médica (art. 184)</span></div>
+      <div class="m-card lc"><span class="m-num">3 / 5 anos</span><span class="m-txt">Fim da reincidência: advertência / suspensão (art. 185)</span></div>
+      <div class="m-card lc"><span class="m-num">5 anos / 2 anos / 6 meses</span><span class="m-txt">Prescrição: demissão etc. / suspensão / advertência (art. 196)</span></div>
+      <div class="m-card lc"><span class="m-num">+30 consecutivos</span><span class="m-txt">Abandono de cargo (art. 197)</span></div>
+      <div class="m-card lc"><span class="m-num">30+ interpolados / 12 meses</span><span class="m-txt">Inassiduidade habitual (art. 198)</span></div>
+      <div class="m-card lc"><span class="m-num">3 efetivos e estáveis</span><span class="m-txt">Comissão processante; parente até 3º grau não integra (art. 207)</span></div>
+      <div class="m-card lc"><span class="m-num">60 + 60 dias</span><span class="m-txt">Afastamento preventivo, sem prejuízo da remuneração (art. 206)</span></div>
+      <div class="m-card lc"><span class="m-num">5 testemunhas</span><span class="m-txt">Máximo da defesa, salvo as referidas (art. 211)</span></div>
+      <div class="m-card lc"><span class="m-num">10 / 20 dias</span><span class="m-txt">Defesa: 1 acusado / 2 ou mais (arts. 217 e 236)</span></div>
+      <div class="m-card lc"><span class="m-num">20 dias</span><span class="m-txt">Julgamento do PAD (art. 240)</span></div>
+      <div class="m-card lc"><span class="m-num">5 anos / 120 dias</span><span class="m-txt">Direito de petição prescreve: demissão, exoneração etc. / demais casos (art. 166)</span></div>
+    </div>
       <div class="m-card e"><span class="m-num">4 anos</span><span class="m-txt">Legislatura</span></div>
       <div class="m-card e"><span class="m-num">1 ano</span><span class="m-txt">Mandato da Mesa, sem recondução ao mesmo cargo</span></div>
       <div class="m-card e"><span class="m-num">5% do eleitorado</span><span class="m-txt">Iniciativa popular de lei / proposta popular de emenda à LOM</span></div>
-      <div class="m-card e"><span class="m-num">6% / 3 anos</span><span class="m-txt">Triênio — LC 370/2026</span></div>
+      <div class="m-card e"><span class="m-num">6% / 3 anos</span><span class="m-txt">Triênio — LC 154, art. 107 (LC 370/2026)</span></div>
+      <div class="m-card e"><span class="m-num">18 anos</span><span class="m-txt">Idade mínima — exigida no ingresso no cargo (LC 154, art. 5º)</span></div>
+      <div class="m-card e"><span class="m-num">até 5%</span><span class="m-txt">Vagas para pessoas com deficiência (art. 5º, §2º)</span></div>
+      <div class="m-card e"><span class="m-num">40 h / 8 h</span><span class="m-txt">Jornada máxima semanal / diária (art. 23)</span></div>
     </div>
   </section>
 
-  <section class="secao p4" id="s18">
-    <div class="secao-num"><span class="badge-num">18</span><h2>MAPA DE VERBOS</h2></div>
+  <section class="secao p4" id="s36">
+    <div class="secao-num"><span class="badge-num">36</span><h2>MAPA DE VERBOS</h2></div>
     <div class="tabela-wrap"><table>
       <thead><tr><th>Verbo</th><th>Tema</th></tr></thead>
       <tbody>
@@ -1052,10 +1713,10 @@
     </table></div>
   </section>
 
-  <section class="secao p4" id="s19">
-    <div class="secao-num"><span class="badge-num">19</span><h2>MINI-SIMULADO INTEGRADO</h2></div>
+  <section class="secao p4" id="s37">
+    <div class="secao-num"><span class="badge-num">37</span><h2>MINI-SIMULADO INTEGRADO</h2></div>
     <p class="autoral">🎯 QUESTÕES AUTORAIS / INÉDITAS — elaboradas para treino, não são questões reais da banca.</p>
-    <div class="placar">🎮 Toque na alternativa para responder • <span id="acertos">0</span> acerto(s) de <span id="respondidas">0</span>/15</div>
+    <div class="placar">🎮 Toque na alternativa para responder • <span id="acertos">0</span> acerto(s) de <span id="respondidas">0</span>/30</div>
 
     <div class="q" data-g="B"><p class="q-enun">1. Sobre a LC 370/2026, a combinação destacada na apostila é:</p>
       <button data-l="A">A) 5% a cada 2 anos.</button>
@@ -1162,12 +1823,121 @@
       <button data-l="C">C) a criação de cargos na administração direta ou indireta.</button>
       <button data-l="D">D) a concessão de título de cidadão honorário.</button>
       <p class="gab"><b>Gabarito:</b> C</p></div>
+
+    <h3>🎯 Questões autorais — Estatuto do Servidor (LC 154/2014)</h3>
+
+    <div class="q" data-g="C"><p class="q-enun">16. Segundo a LC 154/2014, a investidura em cargo público ocorre com:</p>
+      <button data-l="A">A) a nomeação.</button>
+      <button data-l="B">B) a aprovação no concurso.</button>
+      <button data-l="C">C) a posse.</button>
+      <button data-l="D">D) o início do efetivo exercício.</button>
+      <p class="gab"><b>Gabarito:</b> C — art. 7º: a investidura ocorre com a posse.</p></div>
+
+    <div class="q" data-g="B"><p class="q-enun">17. A nomeação para cargo efetivo foi publicada em 1º de março. O nomeado não tomou posse nem no prazo inicial nem na prorrogação. Pela LC 154/2014:</p>
+      <button data-l="A">A) o servidor é exonerado de ofício.</button>
+      <button data-l="B">B) a nomeação torna-se sem efeito.</button>
+      <button data-l="C">C) o prazo é prorrogado automaticamente por mais 60 dias.</button>
+      <button data-l="D">D) o candidato volta para o fim da lista de classificação.</button>
+      <p class="gab"><b>Gabarito:</b> B — art. 16, §4º. Prazo: até 30 dias, prorrogável por mais 30.</p></div>
+
+    <div class="q" data-g="D"><p class="q-enun">18. A nomeação para cargo efetivo produz efeitos financeiros a partir:</p>
+      <button data-l="A">A) da publicação do ato de nomeação.</button>
+      <button data-l="B">B) da assinatura do termo de posse, independentemente de exercício.</button>
+      <button data-l="C">C) da homologação do concurso.</button>
+      <button data-l="D">D) do início do efetivo exercício.</button>
+      <p class="gab"><b>Gabarito:</b> D — art. 19, §3º.</p></div>
+
+    <div class="q" data-g="A"><p class="q-enun">19. O estágio probatório do servidor nomeado para cargo efetivo dura:</p>
+      <button data-l="A">A) 3 anos, contados da data da entrada em exercício.</button>
+      <button data-l="B">B) 3 anos, contados da publicação da nomeação.</button>
+      <button data-l="C">C) 2 anos, contados da posse.</button>
+      <button data-l="D">D) 3 anos, contados da homologação do concurso.</button>
+      <p class="gab"><b>Gabarito:</b> A — art. 24.</p></div>
+
+    <div class="q" data-g="B"><p class="q-enun">20. Um servidor efetivo tomou posse e entrou em exercício há 20 dias. Ele pode ser nomeado para função gratificada?</p>
+      <button data-l="A">A) Sim, pois já tomou posse.</button>
+      <button data-l="B">B) Não, pois precisa de no mínimo 30 dias de exercício efetivo no cargo em que foi empossado.</button>
+      <button data-l="C">C) Sim, desde que tenha sido aprovado no estágio probatório.</button>
+      <button data-l="D">D) Não, pois só servidores estáveis podem ocupar função gratificada.</button>
+      <p class="gab"><b>Gabarito:</b> B — art. 22, parágrafo único.</p></div>
+
+    <h3>🎯 Questões autorais — Estatuto: Blocos 2 e 3</h3>
+
+    <div class="q" data-g="B"><p class="q-enun">21. Servidor estável teve sua demissão invalidada por decisão judicial e voltou ao cargo que ocupava. Trata-se de:</p>
+      <button data-l="A">A) reversão.</button>
+      <button data-l="B">B) reintegração.</button>
+      <button data-l="C">C) recondução.</button>
+      <button data-l="D">D) aproveitamento.</button>
+      <p class="gab"><b>Gabarito:</b> B — art. 29.</p></div>
+
+    <div class="q" data-g="C"><p class="q-enun">22. Servidor estável, aprovado em concurso para outro cargo efetivo, foi inabilitado no estágio probatório do novo cargo e retornou ao cargo anterior. Isso é:</p>
+      <button data-l="A">A) reversão.</button>
+      <button data-l="B">B) reintegração.</button>
+      <button data-l="C">C) recondução.</button>
+      <button data-l="D">D) redistribuição.</button>
+      <p class="gab"><b>Gabarito:</b> C — art. 30, §1º, I.</p></div>
+
+    <div class="q" data-g="A"><p class="q-enun">23. Na LC 154/2014, o deslocamento do SERVIDOR para preencher vaga no mesmo quadro funcional chama-se:</p>
+      <button data-l="A">A) remoção.</button>
+      <button data-l="B">B) redistribuição.</button>
+      <button data-l="C">C) substituição.</button>
+      <button data-l="D">D) readaptação.</button>
+      <p class="gab"><b>Gabarito:</b> A — art. 41. Redistribuição desloca o CARGO (art. 48).</p></div>
+
+    <div class="q" data-g="D"><p class="q-enun">24. NÃO é hipótese de vacância do cargo público, segundo o art. 38:</p>
+      <button data-l="A">A) exoneração.</button>
+      <button data-l="B">B) aposentadoria.</button>
+      <button data-l="C">C) posse em outro cargo inacumulável.</button>
+      <button data-l="D">D) remoção.</button>
+      <p class="gab"><b>Gabarito:</b> D — a lista do art. 38 é: exoneração, demissão, aposentadoria, posse em outro cargo inacumulável e falecimento.</p></div>
+
+    <div class="q" data-g="C"><p class="q-enun">25. A licença para tratar de interesses particulares pode ser concedida:</p>
+      <button data-l="A">A) a qualquer servidor efetivo, com remuneração, por 2 anos.</button>
+      <button data-l="B">B) ao servidor em estágio probatório, sem remuneração, por 1 ano.</button>
+      <button data-l="C">C) ao servidor efetivo e estável, sem remuneração, por 2 anos, prorrogável por igual período.</button>
+      <button data-l="D">D) ao ocupante de cargo em comissão, sem remuneração, por até 120 dias.</button>
+      <p class="gab"><b>Gabarito:</b> C — art. 127 (e art. 131: não cabe para cargo em comissão).</p></div>
+
+    <div class="q" data-g="B"><p class="q-enun">26. Na licença por motivo de doença em pessoa da família, depois dos primeiros 30 dias e até 6 meses, a remuneração é de:</p>
+      <button data-l="A">A) 100%.</button>
+      <button data-l="B">B) 70%.</button>
+      <button data-l="C">C) 50%.</button>
+      <button data-l="D">D) zero.</button>
+      <p class="gab"><b>Gabarito:</b> B — art. 125, parágrafo único, I.</p></div>
+
+    <div class="q" data-g="A"><p class="q-enun">27. A prescrição da ação disciplinar quanto à suspensão ocorre em:</p>
+      <button data-l="A">A) 2 anos.</button>
+      <button data-l="B">B) 5 anos.</button>
+      <button data-l="C">C) 6 meses.</button>
+      <button data-l="D">D) 3 anos.</button>
+      <p class="gab"><b>Gabarito:</b> A — art. 196, II.</p></div>
+
+    <div class="q" data-g="D"><p class="q-enun">28. Servidor faltou, sem causa justificada, 32 dias intercalados ao longo dos últimos 12 meses. A situação caracteriza:</p>
+      <button data-l="A">A) abandono de cargo.</button>
+      <button data-l="B">B) redução de férias apenas.</button>
+      <button data-l="C">C) advertência.</button>
+      <button data-l="D">D) inassiduidade habitual.</button>
+      <p class="gab"><b>Gabarito:</b> D — art. 198: 30 dias ou mais, interpoladamente, em 12 meses.</p></div>
+
+    <div class="q" data-g="C"><p class="q-enun">29. A comissão que conduz a sindicância e o processo disciplinar é composta por:</p>
+      <button data-l="A">A) 3 servidores quaisquer, indicados pelo acusado.</button>
+      <button data-l="B">B) 5 servidores efetivos.</button>
+      <button data-l="C">C) 3 servidores efetivos e estáveis, vedada a participação de parente do acusado até o 3º grau.</button>
+      <button data-l="D">D) 3 servidores comissionados de confiança da autoridade.</button>
+      <p class="gab"><b>Gabarito:</b> C — art. 207.</p></div>
+
+    <div class="q" data-g="B"><p class="q-enun">30. Violar a proibição de gerenciar sociedade empresária que mantenha relações comerciais com o Município (art. 174, XVI) sujeita o servidor a:</p>
+      <button data-l="A">A) advertência.</button>
+      <button data-l="B">B) demissão.</button>
+      <button data-l="C">C) multa apenas.</button>
+      <button data-l="D">D) suspensão de até 15 dias.</button>
+      <p class="gab"><b>Gabarito:</b> B — art. 186, VIII: violação do art. 174, XIV a XXI.</p></div>
   </section>
 
-  <section class="secao p4" id="s20">
-    <div class="secao-num"><span class="badge-num">20</span><h2>CHECKLIST — POSSO IR PARA A PRÓXIMA MATÉRIA?</h2></div>
+  <section class="secao p4" id="s38">
+    <div class="secao-num"><span class="badge-num">38</span><h2>CHECKLIST — POSSO IR PARA A PRÓXIMA MATÉRIA?</h2></div>
     <div class="barra"><div class="barra-fill" id="barra"></div></div>
-    <p class="barra-txt" id="barraTxt">0 de 13 concluídos</p>
+    <p class="barra-txt" id="barraTxt">0 de 22 concluídos</p>
     <ul class="check">
       <li><label><input type="checkbox"> Sei diferenciar LC 344/2025, LC 370/2026 e as ELOs 10, 11 e 12/2025.</label></li>
       <li><label><input type="checkbox"> Sei a condição do art. 174, XVI: relação com o Município ou subvenção.</label></li>
@@ -1178,6 +1948,15 @@
       <li><label><input type="checkbox"> Sei Mesa × Presidente × Comissão × CPI.</label></li>
       <li><label><input type="checkbox"> Sei MESA + 2/3 + EMPATE.</label></li>
       <li><label><input type="checkbox"> Sei 1/5 × 1/3.</label></li>
+      <li><label><input type="checkbox"> Sei a sequência nomeação → posse → exercício → estágio → estabilidade (LC 154).</label></li>
+      <li><label><input type="checkbox"> Sei os prazos da posse (30 + 30) e a consequência (nomeação sem efeito).</label></li>
+      <li><label><input type="checkbox"> Sei que efeitos financeiros e estágio probatório contam do início do exercício.</label></li>
+      <li><label><input type="checkbox"> Sei reversão × reintegração × recondução e disponibilidade × aproveitamento.</label></li>
+      <li><label><input type="checkbox"> Sei remoção (servidor) × redistribuição (cargo) e as 5 hipóteses de vacância.</label></li>
+      <li><label><input type="checkbox"> Sei os números de férias e das licenças (escadinha 70/50 e interesses particulares).</label></li>
+      <li><label><input type="checkbox"> Sei as penalidades, quem aplica e a prescrição 5 anos / 2 anos / 6 meses.</label></li>
+      <li><label><input type="checkbox"> Sei abandono (+30 consecutivos) × inassiduidade (30+ interpolados em 12 meses).</label></li>
+      <li><label><input type="checkbox"> Sei a comissão do PAD, o afastamento preventivo e os prazos de defesa e julgamento.</label></li>
       <li><label><input type="checkbox"> Consigo identificar uma alternativa que troque apenas um verbo, número ou órgão.</label></li>
       <li><label><input type="checkbox"> Sei que o §1º do art. 8º está revogado e que Resolução × Decreto Legislativo está no art. 48.</label></li>
       <li><label><input type="checkbox"> Sei as redações antigas do art. 12-A (24 h → &gt;15 dias → &gt;120 dias).</label></li>
